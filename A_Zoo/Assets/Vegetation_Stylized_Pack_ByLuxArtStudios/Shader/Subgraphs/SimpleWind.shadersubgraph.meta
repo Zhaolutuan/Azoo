@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a83f2eaca3bb9aa498a719df838de2c5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 60072b568d64c40a485e0fc55012dc9f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298238
+  packageName: Vegetation Stylized Kit
+  packageVersion: 1.0
+  assetPath: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Shader/Subgraphs/SimpleWind.shadersubgraph
+  uploadId: 701453
