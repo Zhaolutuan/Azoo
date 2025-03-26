@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
 
         [Header("Jump")]
@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
         [Header("Movement")]
         public Rigidbody _rb;
+        public float rotationSpeed = 5.0f;
         public float speed = 5.0f;
 
         [Header("Interact")]
@@ -39,8 +40,9 @@ public class PlayerController : MonoBehaviour
 #endif
 
 
-        private void Awake()
+        protected override void Awake()
         {
+                base.Awake();
                 if (vcam == null)
                 {
                         Debug.LogError("No virtual camera found");
@@ -71,8 +73,10 @@ public class PlayerController : MonoBehaviour
                 Quaternion rotation = Quaternion.Euler(0, transposer.m_XAxis.Value, 0);
                 Vector3 direction = rotation * new Vector3(horizontalInput, 0, verticalInput);
 
+                //if (direction != Vector3.zero)transform.rotation = Quaternion.LookRotation(direction);
+                //rigidbody anglespeed
                 if (direction != Vector3.zero)
-                        transform.rotation = Quaternion.LookRotation(direction);
+                        _rb.MoveRotation(Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), rotationSpeed * Time.fixedDeltaTime));
 
                 velocity.x = direction.x * speed;
                 velocity.z = direction.z * speed;
