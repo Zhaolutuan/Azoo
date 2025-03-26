@@ -7,26 +7,33 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+        [Header("Jump")]
+        public float jumpForce;
+        public float lastJumpTime;
+
         [Header("Movement")]
+        public Rigidbody _rb;
         public float speed = 5.0f;
 
         [Header("View")]
         public CinemachineVirtualCamera vcam;
         public CinemachineOrbitalTransposer transposer;
-        public Vector2 OffsetYRange;
+        public float Distance = 3.85f;
+        public float YAngle = 0.0f;
+        public Vector2 YAngleRange;
         public float SpeedY = 1.0f;
 
 #if UNITY_EDITOR
         private void OnValidate()
         {
-                if (OffsetYRange.x > OffsetYRange.y)
+                if (YAngleRange.x > YAngleRange.y)
                 {
-                        OffsetYRange.x = OffsetYRange.y;
+                        YAngleRange = new Vector2(YAngleRange.y, YAngleRange.x);
                 }
         }
 
 #endif
-    
+
 
         private void Awake()
         {
@@ -38,33 +45,43 @@ public class PlayerController : MonoBehaviour
                 {
                         transposer = vcam.GetCinemachineComponent<CinemachineOrbitalTransposer>();
                 }
-        }
-
-        // Start is called before the first frame update
-        void Start()
-        {
-            
+                _rb = GetComponent<Rigidbody>();
         }
 
         private void FixedUpdate()
         {
-                
+                Vector3 velocity = _rb.velocity;
+
+                //Jump
+                var grounded = Physics.Raycast(transform.position, Vector3.down, 1.1f);
+                if (Time.fixedTime - lastJumpTime > 0.5f && Input.GetButtonDown("Jump") && grounded)
+                {
+                        velocity.y = jumpForce;
+                        lastJumpTime = Time.fixedTime;
+                }
+
+                //Move
+                float horizontalInput = Input.GetAxis("Horizontal");
+                float verticalInput = Input.GetAxis("Vertical");
+                Quaternion rotation = Quaternion.Euler(0, transposer.m_XAxis.Value, 0);
+                Vector3 direction = rotation * new Vector3(horizontalInput, 0, verticalInput);
+
+                transform.rotation = Quaternion.LookRotation(direction);
+
+                velocity.x = direction.x * speed;
+                velocity.z = direction.z * speed;
+
+                _rb.velocity = velocity;
         }
 
         // Update is called once per frame
         void Update()
         {
                 float YAxis = Input.GetAxis("Mouse Y");
-                transposer.m_FollowOffset.y =
-                        Mathf.Clamp(transposer.m_FollowOffset.y - YAxis * SpeedY * Time.deltaTime,
-                        OffsetYRange.x, OffsetYRange.y);
 
-        //Move
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+                YAngle = Mathf.Clamp(YAngle + YAxis * SpeedY * Time.deltaTime, YAngleRange.x, YAngleRange.y);
 
-        Quaternion rotation = Quaternion.Euler(0, transposer.m_XAxis.Value, 0);
-        Vector3 direction = rotation * new Vector3(horizontalInput, 0, verticalInput);
-        transform.Translate(speed * Time.deltaTime * direction);
-    }
+                transposer.m_FollowOffset.y = Distance * Mathf.Sin(YAngle * Mathf.Deg2Rad);
+                transposer.m_FollowOffset.z = -Distance * Mathf.Cos(YAngle * Mathf.Deg2Rad);
+        }
 }
