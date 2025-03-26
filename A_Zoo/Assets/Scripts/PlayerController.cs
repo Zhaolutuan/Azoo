@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
         public Rigidbody _rb;
         public float speed = 5.0f;
 
+        [Header("Interact")]
+        public bool canInteract = true;
+        public Viewhandler viewhandler;
+
         [Header("View")]
         public CinemachineVirtualCamera vcam;
         public CinemachineOrbitalTransposer transposer;
@@ -46,6 +50,7 @@ public class PlayerController : MonoBehaviour
                         transposer = vcam.GetCinemachineComponent<CinemachineOrbitalTransposer>();
                 }
                 _rb = GetComponent<Rigidbody>();
+                viewhandler = GetComponentInChildren<Viewhandler>();
         }
 
         private void FixedUpdate()
@@ -66,7 +71,8 @@ public class PlayerController : MonoBehaviour
                 Quaternion rotation = Quaternion.Euler(0, transposer.m_XAxis.Value, 0);
                 Vector3 direction = rotation * new Vector3(horizontalInput, 0, verticalInput);
 
-                transform.rotation = Quaternion.LookRotation(direction);
+                if (direction != Vector3.zero)
+                        transform.rotation = Quaternion.LookRotation(direction);
 
                 velocity.x = direction.x * speed;
                 velocity.z = direction.z * speed;
@@ -83,5 +89,10 @@ public class PlayerController : MonoBehaviour
 
                 transposer.m_FollowOffset.y = Distance * Mathf.Sin(YAngle * Mathf.Deg2Rad);
                 transposer.m_FollowOffset.z = -Distance * Mathf.Cos(YAngle * Mathf.Deg2Rad);
+
+                if (Input.GetKeyDown(KeyCode.F) && viewhandler.target.Count > 0)
+                {
+                        viewhandler.target[0].GetComponent<InteractiveObject>().Interact();
+                }
         }
 }
