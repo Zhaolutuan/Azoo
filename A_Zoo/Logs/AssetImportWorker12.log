@@ -1,0 +1,257 @@
+Using pre-set license
+Built from '2023.2/china_unity/20f1' branch; Version is '2023.2.20f1c1 (ceda3f59bbc9) revision 13556287'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 40768 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\code\unity hub\----Unity_editor\2023.2.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+60859
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26004] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 191103445 [EditorId] 191103445 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26004] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 191103445 [EditorId] 191103445 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1c1 (ceda3f59bbc9)
+[Subsystems] Discovering subsystems at path E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006032 seconds.
+- Loaded All Assemblies, in  0.857 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (388ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (265ms)
+				TypeCache.ScanAssembly (234ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.513 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.071 seconds
+Domain Reload Profiling: 2575ms
+	BeginReloadAssembly (553ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (843ms)
+		LoadAssemblies (652ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (304ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1071ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (703ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (540ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5409 unused Assets / (5.6 MB). Loaded Objects now: 6115.
+Memory consumption went from 177.6 MB to 172.0 MB.
+Total: 13.553100 ms (FindLiveObjects: 0.863100 ms CreateObjectMapping: 0.825600 ms MarkObjects: 7.930800 ms  DeleteObjects: 3.931500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19956.029630 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bedroom_Table_01/Bedroom_Table_01_Normal.png
+  artifactKey: Guid(43734befb6a6e904cbb57bb87cce9d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bedroom_Table_01/Bedroom_Table_01_Normal.png using Guid(43734befb6a6e904cbb57bb87cce9d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52d96f77ceb62f21fa4394b086c8acfb') in 0.069763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.405234 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Curtain/CurtainA/Curtain_A_Normal.png
+  artifactKey: Guid(3f87f788e3ba9c6468fec9de082dd329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Curtain/CurtainA/Curtain_A_Normal.png using Guid(3f87f788e3ba9c6468fec9de082dd329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e569ac153d0540fb9e0f244c6609bfb') in 0.0102664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.262608 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bed_Light/Bed_Light_Normal.png
+  artifactKey: Guid(4f9d08ac6403d4148a403e11987a57fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bed_Light/Bed_Light_Normal.png using Guid(4f9d08ac6403d4148a403e11987a57fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de060088db14309629a7d6314e0c53b4') in 0.0108235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.859879 seconds.
+  path: Assets/Floor materials pack/Texture/1/NormalMap.png
+  artifactKey: Guid(0115ea327d59949bfb568c671af4501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/1/NormalMap.png using Guid(0115ea327d59949bfb568c671af4501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eeb30433066e2c77f5acedebd7b2e56') in 0.0063091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515136 seconds.
+  path: Assets/Floor materials pack/Texture/2/NormalMap-3.png
+  artifactKey: Guid(51fe8ce92bebe41da9f3eb4da454e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/2/NormalMap-3.png using Guid(51fe8ce92bebe41da9f3eb4da454e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b17769ce1309937700254e4fddefc1') in 0.0062319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291044 seconds.
+  path: Assets/Floor materials pack/Texture/3/NormalMap.png
+  artifactKey: Guid(5c992ceeb5318462dbe33226b6b78b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/3/NormalMap.png using Guid(5c992ceeb5318462dbe33226b6b78b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0304fd8ebe60246e73403fca3519a6ef') in 0.0062992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254742 seconds.
+  path: Assets/Floor materials pack/Texture/5/NormalMap.png
+  artifactKey: Guid(939bfa0bd11934647b596ddb4534136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/5/NormalMap.png using Guid(939bfa0bd11934647b596ddb4534136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba68df040555dd2b5560d9c707ce43fc') in 0.0057556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257186 seconds.
+  path: Assets/Floor materials pack/Texture/7/NormalMap.png
+  artifactKey: Guid(acb0fa4edb0fb47b69eae37fe457b09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/7/NormalMap.png using Guid(acb0fa4edb0fb47b69eae37fe457b09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a53e3eb7a430ea169b99a2160ed89b') in 0.0059694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.087406 seconds.
+  path: Assets/Floor materials pack/Material/Floor_1 1.mat
+  artifactKey: Guid(c93de40e64ec9b94fa8d18c362165644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Material/Floor_1 1.mat using Guid(c93de40e64ec9b94fa8d18c362165644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7033d2b2d8921e61ed0173fa1c18331') in 0.3286583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Floor materials pack/Material/Floor_5 1.mat
+  artifactKey: Guid(510e3dc371565ec47b6e892faad51968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Material/Floor_5 1.mat using Guid(510e3dc371565ec47b6e892faad51968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed5002d836b6d1fcdb33f722a98e5c59') in 0.0185733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

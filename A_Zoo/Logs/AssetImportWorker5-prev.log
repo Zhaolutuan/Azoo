@@ -1,0 +1,321 @@
+Using pre-set license
+Built from '2023.2/china_unity/20f1' branch; Version is '2023.2.20f1c1 (ceda3f59bbc9) revision 13556287'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 40768 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\code\unity hub\----Unity_editor\2023.2.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50334
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19624] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2882902257 [EditorId] 2882902257 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19624] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2882902257 [EditorId] 2882902257 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1c1 (ceda3f59bbc9)
+[Subsystems] Discovering subsystems at path E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004814 seconds.
+- Loaded All Assemblies, in  0.445 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.299 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (300ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.944 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 1622ms
+	BeginReloadAssembly (431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (371ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (687ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 174 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5410 unused Assets / (5.9 MB). Loaded Objects now: 6100.
+Memory consumption went from 165.7 MB to 159.8 MB.
+Total: 13.668900 ms (FindLiveObjects: 0.676000 ms CreateObjectMapping: 0.924500 ms MarkObjects: 7.711600 ms  DeleteObjects: 4.355000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1403.769838 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Grass_A.fbx
+  artifactKey: Guid(2bb97ffe58353b24a875c93e26776d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Grass_A.fbx using Guid(2bb97ffe58353b24a875c93e26776d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5eeaefcbba5852c676fa42da926f096') in 0.3860716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.428571 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_G/S_Tree_G_LOD_1.fbx
+  artifactKey: Guid(0eba342ea59924f41b3e0f4df67896e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_G/S_Tree_G_LOD_1.fbx using Guid(0eba342ea59924f41b3e0f4df67896e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b3e1b417b5890ddbbd1d3351c9693db') in 0.0257097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388523 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_H/S_Tree_H_LOD_1.fbx
+  artifactKey: Guid(638901fae73884645a6c6dc41b0b01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_H/S_Tree_H_LOD_1.fbx using Guid(638901fae73884645a6c6dc41b0b01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b18fbb3eab04a0e96bc38c14e43bb2c') in 0.0244999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043712 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_H/S_Tree_H_LOD_2.fbx
+  artifactKey: Guid(841382c950c20044f98589aa25cda0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_H/S_Tree_H_LOD_2.fbx using Guid(841382c950c20044f98589aa25cda0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee3ee630df7746636c9e44aa46ded658') in 0.0247437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354316 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/S_Tree_E.fbx
+  artifactKey: Guid(c504021fea193294990c1cfc737e6de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/S_Tree_E.fbx using Guid(c504021fea193294990c1cfc737e6de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c87911ba6c0022f74c15e46983a81c68') in 0.023317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.109180 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/S_Tree_H.fbx
+  artifactKey: Guid(28c0d9ffd99c70640a2b5e5318265848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/S_Tree_H.fbx using Guid(28c0d9ffd99c70640a2b5e5318265848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faf07a9efbc3c696f4cca7e0badffa29') in 0.0238651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220628 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_A/S_Tree_A_LOD_2.fbx
+  artifactKey: Guid(e66322847f5b8864bb30b94e1a13a37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_A/S_Tree_A_LOD_2.fbx using Guid(e66322847f5b8864bb30b94e1a13a37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a8d1e204de52fad0e8252b561f16d2e') in 0.0242328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246606 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/S_Tree_C.fbx
+  artifactKey: Guid(37bf514c65e5cbd469459a699c12a738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/S_Tree_C.fbx using Guid(37bf514c65e5cbd469459a699c12a738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a41bc0da6ed064d9016c5fd135ea5dd') in 0.0252709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027596 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_E/S_Tree_E_LOD_2.fbx
+  artifactKey: Guid(9419affbd0f39594f97bd05714b6ec4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Trees/LODS/Tree_E/S_Tree_E_LOD_2.fbx using Guid(9419affbd0f39594f97bd05714b6ec4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03741fc8f9ab2f0e039469192fb47812') in 0.0205202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.400851 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3519b3413a31eb212dc56a4fffd4f22') in 0.0090698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00350b0be82916402eac301cc186db07') in 0.0060448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.918770 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c8fb6a40529c5456540434a252331ef') in 0.0254374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.239476 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '533fb765051d802534dd3dd5f5a78756') in 0.0096106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.763696 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Fern_C.fbx
+  artifactKey: Guid(875fb56756d6ac54995f8e1abb5f5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Fern_C.fbx using Guid(875fb56756d6ac54995f8e1abb5f5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a85321a32f5e89a238bdf214436c8a59') in 0.0159349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.280508 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cbebb6eb1cae460a0fcdbae54101005') in 1.2003921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.861572 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Materials/S_Bush_02A.mat
+  artifactKey: Guid(268e9886ea10b4140a113457a1961346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Materials/S_Bush_02A.mat using Guid(268e9886ea10b4140a113457a1961346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7aef07d32f39135cc62edfdbfd20121') in 0.0124724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049406 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Materials/S_Bush_04A.mat
+  artifactKey: Guid(38b8ec21008913843889392b5cfeb2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Materials/S_Bush_04A.mat using Guid(38b8ec21008913843889392b5cfeb2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0662eb546c96da968dd1cbbef9dd5e0a') in 0.0123632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047456 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Shader/S_Master_Ground.shadergraph
+  artifactKey: Guid(32996737411b984468737d0935efe199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Shader/S_Master_Ground.shadergraph using Guid(32996737411b984468737d0935efe199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cf2c0991d2b635b481854bfd039ac54') in 1.2650955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

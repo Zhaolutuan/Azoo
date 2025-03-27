@@ -1,0 +1,483 @@
+Using pre-set license
+Built from '2023.2/china_unity/20f1' branch; Version is '2023.2.20f1c1 (ceda3f59bbc9) revision 13556287'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 40768 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\code\unity hub\----Unity_editor\2023.2.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker23
+-projectPath
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+-logFile
+Logs/AssetImportWorker23.log
+-srvPort
+60859
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29080] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3110050425 [EditorId] 3110050425 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29080] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3110050425 [EditorId] 3110050425 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1c1 (ceda3f59bbc9)
+[Subsystems] Discovering subsystems at path E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006092 seconds.
+- Loaded All Assemblies, in  0.451 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.303 seconds
+Domain Reload Profiling: 744ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (253ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.043 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.948 seconds
+Domain Reload Profiling: 1981ms
+	BeginReloadAssembly (449ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (948ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (647ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (498ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5409 unused Assets / (5.1 MB). Loaded Objects now: 6115.
+Memory consumption went from 177.7 MB to 172.6 MB.
+Total: 17.397900 ms (FindLiveObjects: 0.977000 ms CreateObjectMapping: 1.097800 ms MarkObjects: 10.555300 ms  DeleteObjects: 4.765700 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.701 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5410 unused Assets / (5.4 MB). Loaded Objects now: 6119.
+Memory consumption went from 152.3 MB to 146.9 MB.
+Total: 12.294100 ms (FindLiveObjects: 0.882400 ms CreateObjectMapping: 0.978500 ms MarkObjects: 6.795100 ms  DeleteObjects: 3.636500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 21927.016877 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Brown.mat
+  artifactKey: Guid(8435c264ba4b3ef46abdcf3b27cda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Brown.mat using Guid(8435c264ba4b3ef46abdcf3b27cda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ca41f4f9c7db2e0bb7a8e8d909c1fc') in 0.3447066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.287404 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Brown.mat
+  artifactKey: Guid(e2ce3b2cb72c8154085967a0b2ff2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Brown.mat using Guid(e2ce3b2cb72c8154085967a0b2ff2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9602554f555fc89f1e0b9ca0d6e31293') in 0.0187201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Venge.mat
+  artifactKey: Guid(a62844ba24ffdf149b878c319ddd6141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Venge.mat using Guid(a62844ba24ffdf149b878c319ddd6141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0374acb97a0d0500d66dfbd2c8d538e3') in 0.0165783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.614264 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Brown.mat
+  artifactKey: Guid(ca009be402b5e1f4c8a65b379ab9e12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Brown.mat using Guid(ca009be402b5e1f4c8a65b379ab9e12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b527d4fecfdfd558804a7efa1516a7c7') in 0.0199836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Yellow.mat
+  artifactKey: Guid(6ad1177f60416b2449607265fa598736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Yellow.mat using Guid(6ad1177f60416b2449607265fa598736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa370ea6cad67e7ae612db3ad3d692aa') in 0.017231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.332988 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Brown.mat
+  artifactKey: Guid(bcc29ac02b84ecd49846853ee55af366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Brown.mat using Guid(bcc29ac02b84ecd49846853ee55af366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bb511b84c44a8769a986b37b2ab9b94') in 0.0178782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Yellow.mat
+  artifactKey: Guid(7355bbc9a24101847be72674611638da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Yellow.mat using Guid(7355bbc9a24101847be72674611638da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5adee22d3509c93e15ed290f6e65899a') in 0.0156183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.648314 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Brown.mat
+  artifactKey: Guid(662bed332c7eb0a4aac7c02d03f0f550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Brown.mat using Guid(662bed332c7eb0a4aac7c02d03f0f550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5657c3b53f9bb14354ab11e0d68f8dc6') in 0.0183064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_White.mat
+  artifactKey: Guid(48d85f345546ce74b860ed0b9ce69124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_White.mat using Guid(48d85f345546ce74b860ed0b9ce69124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '859a91aa105f7e47c75b15c709f011de') in 0.0161582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.480742 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Brown.mat
+  artifactKey: Guid(41762dd8e697f46419aa67d39b609c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Brown.mat using Guid(41762dd8e697f46419aa67d39b609c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91df8cd3bcdf4306cc0c639696f910f6') in 0.0172493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Yellow.mat
+  artifactKey: Guid(c4ce783bae7642041ae63afb99a7eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Yellow.mat using Guid(c4ce783bae7642041ae63afb99a7eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3d0aee75535cfd64101a94d598e371a') in 0.017333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.766527 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Brown.mat
+  artifactKey: Guid(e5d5cac0cc0d422459638043e18babdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Brown.mat using Guid(e5d5cac0cc0d422459638043e18babdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0990773f36844f3368bdc769d0be24af') in 0.0168361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_White.mat
+  artifactKey: Guid(bd80f80a6935c344d9a2fd09922241c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_White.mat using Guid(bd80f80a6935c344d9a2fd09922241c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3540461c616fdd89d64eab10937b2d6') in 0.0150786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.536180 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Brown.mat
+  artifactKey: Guid(77d589783fcc14749a52e85cf57d1f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Brown.mat using Guid(77d589783fcc14749a52e85cf57d1f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '144e58ddcf9536403a4fcef1598d980a') in 0.017984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Yellow.mat
+  artifactKey: Guid(a8cf18a280630e54d922d9b0206a698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Yellow.mat using Guid(a8cf18a280630e54d922d9b0206a698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4d19e6ebe0842506b2ccaa4bb78a56') in 0.0159324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.711938 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Brown.mat
+  artifactKey: Guid(ab06ad36a7ab76148973ec498e422f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Brown.mat using Guid(ab06ad36a7ab76148973ec498e422f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ea2478080f74e3761d9225bc4d6ff0') in 0.0181309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Yellow.mat
+  artifactKey: Guid(2eb48a350e538a94499211867924b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Yellow.mat using Guid(2eb48a350e538a94499211867924b9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc5f26e6fc82bc106fdc81d5c47784d6') in 0.0159701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.405638 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Brown.mat
+  artifactKey: Guid(85a6fb32971901c48b498e5862e4f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Brown.mat using Guid(85a6fb32971901c48b498e5862e4f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d49d30016c1dfaa504cf449868b7e70') in 0.019309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.990539 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Brown.mat
+  artifactKey: Guid(5a16364ffa9449548ada0b340dc78677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Brown.mat using Guid(5a16364ffa9449548ada0b340dc78677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e8e3625493e08496a94170b1fa2b283') in 0.0175724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Venge.mat
+  artifactKey: Guid(e5db5b39d565bb044a30c7a6b5326e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Venge.mat using Guid(e5db5b39d565bb044a30c7a6b5326e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e7c517198edcbb3047a3dad6eae6d7f') in 0.0156996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.032131 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Brown.mat
+  artifactKey: Guid(5a7d3c45dcf5eec43aaa977ff72acb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Brown.mat using Guid(5a7d3c45dcf5eec43aaa977ff72acb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe8a2beaf683656d0fea748f46beaff') in 0.0182213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Yellow.mat
+  artifactKey: Guid(a245d2f9a8bb47446903129ea9f85591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Yellow.mat using Guid(a245d2f9a8bb47446903129ea9f85591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0fdca4c9903358b6f647ffb4cda3306') in 0.016349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.777104 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Brown.mat
+  artifactKey: Guid(dcde6acac54b4f74c9981cb271bf00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Brown.mat using Guid(dcde6acac54b4f74c9981cb271bf00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79f5ddc3c7978f2b9624165dcb824e03') in 0.0185692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_White.mat
+  artifactKey: Guid(63451a00d9ef5354ebf5033d59ed257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_White.mat using Guid(63451a00d9ef5354ebf5033d59ed257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb151872a01eed1ba247ce132f5b49bd') in 0.0223329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.909216 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Brown.mat
+  artifactKey: Guid(6351314f81cdf19419a2b22103f4d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Brown.mat using Guid(6351314f81cdf19419a2b22103f4d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33c7bec0ae7a54a80d988831a1c5175b') in 0.0196559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_White.mat
+  artifactKey: Guid(0e0dc601b9e48e64fa909d11d7a22160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_White.mat using Guid(0e0dc601b9e48e64fa909d11d7a22160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '875d15c287e50a8332a1b0badab29b77') in 0.0159733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.318653 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Brown.mat
+  artifactKey: Guid(0100eda7def32884bb15c00f29ae7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Brown.mat using Guid(0100eda7def32884bb15c00f29ae7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fab121b6f5aa9899de5604b54942d56a') in 0.0177228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_White.mat
+  artifactKey: Guid(7cf93901e67434242badd74c141b6f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_White.mat using Guid(7cf93901e67434242badd74c141b6f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fe4716ddd7697b80e31a9d58c142540') in 0.0153142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.702143 seconds.
+  path: Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Copper.mat
+  artifactKey: Guid(27671ef6ad4a82148ade30fbd4ec5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Copper.mat using Guid(27671ef6ad4a82148ade30fbd4ec5d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df5560b54de1852aedb611fefc21cf96') in 0.0110399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.140935 seconds.
+  path: Assets/Free Wood Door Pack/Audio/Door_Open.wav
+  artifactKey: Guid(44b63b0db16ce624b97e45ebde0a0971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Audio/Door_Open.wav using Guid(44b63b0db16ce624b97e45ebde0a0971) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1655e136eb43c54a89a85d005b708a99') in 0.0252753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814783 seconds.
+  path: Assets/Free Wood Door Pack/Mesh/Knob_2.FBX
+  artifactKey: Guid(8fb3d1c2ac3340f468df743c47190f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Mesh/Knob_2.FBX using Guid(8fb3d1c2ac3340f468df743c47190f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c441eccf0344b01f22983105b0f1b69f') in 0.0441501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.158094 seconds.
+  path: Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Brown.prefab
+  artifactKey: Guid(bf3641dc1a2eed346a86d653d78ad96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Brown.prefab using Guid(bf3641dc1a2eed346a86d653d78ad96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c1a228e6afdfc1290ccbcffe610450a') in 0.0327595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

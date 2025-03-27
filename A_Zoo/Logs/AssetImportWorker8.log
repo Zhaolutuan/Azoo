@@ -1,0 +1,434 @@
+Using pre-set license
+Built from '2023.2/china_unity/20f1' branch; Version is '2023.2.20f1c1 (ceda3f59bbc9) revision 13556287'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 40768 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\code\unity hub\----Unity_editor\2023.2.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+60859
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 736307028 [EditorId] 736307028 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 736307028 [EditorId] 736307028 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1c1 (ceda3f59bbc9)
+[Subsystems] Discovering subsystems at path E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/北理本科/大三下/游戏开发/project/Azoo-main/A_Zoo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004684 seconds.
+- Loaded All Assemblies, in  0.634 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.315 seconds
+Domain Reload Profiling: 943ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (193ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (315ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\project\Azoo-main\A_Zoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.342 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 2096ms
+	BeginReloadAssembly (530ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (717ms)
+		LoadAssemblies (537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (241ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5409 unused Assets / (5.3 MB). Loaded Objects now: 6114.
+Memory consumption went from 173.2 MB to 167.9 MB.
+Total: 13.332800 ms (FindLiveObjects: 0.685300 ms CreateObjectMapping: 1.054800 ms MarkObjects: 7.862000 ms  DeleteObjects: 3.728600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19874.971408 seconds.
+  path: Assets/Floor materials pack/Material/Floor_1 1.mat
+  artifactKey: Guid(c93de40e64ec9b94fa8d18c362165644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Material/Floor_1 1.mat using Guid(c93de40e64ec9b94fa8d18c362165644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7f09ffd569b53eff3d3ea68a730977f') in 0.2974163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Floor materials pack/Material/Floor_5 1.mat
+  artifactKey: Guid(510e3dc371565ec47b6e892faad51968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Material/Floor_5 1.mat using Guid(510e3dc371565ec47b6e892faad51968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fb90cbcc2a71943d9b3ebfa3027f3f9') in 0.0130031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.115459 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Bed_Light_mat.mat
+  artifactKey: Guid(3d1a1c13d9d02a04187ddc4704403ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Bed_Light_mat.mat using Guid(3d1a1c13d9d02a04187ddc4704403ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f646546731f04a5b8d262aabe453da') in 0.030374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Bedroom_Table_01.mat
+  artifactKey: Guid(fbf713ec5dee3804cbf4c47fc2338bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Bedroom_Table_01.mat using Guid(fbf713ec5dee3804cbf4c47fc2338bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5989a7d2f356604ac6ecdabd6b2f4b85') in 0.02167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/light_mat.mat
+  artifactKey: Guid(a6aabb61c1b28834c80e289c02a6ef6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/light_mat.mat using Guid(a6aabb61c1b28834c80e289c02a6ef6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f84799e425ce38c25d2764173d511376') in 0.0165789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Table_light_bed.mat
+  artifactKey: Guid(d9ddbb4107e92184bbc7ad69328321da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Table_light_bed.mat using Guid(d9ddbb4107e92184bbc7ad69328321da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '872d8d71b8efeb7923a8152a1228d780') in 0.0218177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/ceiling_fan_mat.mat
+  artifactKey: Guid(8a80f353b92fa7c44a4d14d169655d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/ceiling_fan_mat.mat using Guid(8a80f353b92fa7c44a4d14d169655d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ed44c8b32c2c10e0149d6bd27530c22') in 0.0238849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/CurtainB_mat.mat
+  artifactKey: Guid(3ec3cc7337de5874ebd09bce44e0588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/CurtainB_mat.mat using Guid(3ec3cc7337de5874ebd09bce44e0588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b72236580d8c62244e6bcf488ec7463') in 0.0168983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.425184 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bedroom_Table_01/Bedroom_Table_01_Metallic.png
+  artifactKey: Guid(d7c162193c9ff7940985c0cefe7656b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bedroom_Table_01/Bedroom_Table_01_Metallic.png using Guid(d7c162193c9ff7940985c0cefe7656b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97c6ed5a683e570ad3ddeafc3e9146d9') in 0.0184421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.458037 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Curtain/CurtainA/Curtain_A_Metallic.png
+  artifactKey: Guid(8084dc4a50b172b4c987f6c1e823ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Curtain/CurtainA/Curtain_A_Metallic.png using Guid(8084dc4a50b172b4c987f6c1e823ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab9e8abd3591a0f820fa724028d5b5c') in 0.0080941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.264145 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bed_Light/Bed_Light_Metallic.png
+  artifactKey: Guid(e5384f8b53e14004283f6776bb8c65f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bed_Light/Bed_Light_Metallic.png using Guid(e5384f8b53e14004283f6776bb8c65f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f7cfe93b385cd5976ac53385833bbec') in 0.0089501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.860262 seconds.
+  path: Assets/Floor materials pack/Texture/1/Texture_floor_1.png
+  artifactKey: Guid(81f8c6d47c7e448e1bc782c096d81227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/1/Texture_floor_1.png using Guid(81f8c6d47c7e448e1bc782c096d81227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e9ddf35245d4fde59aeb0a8d234322') in 0.0062671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.515524 seconds.
+  path: Assets/Floor materials pack/Texture/2/Texture_floor_2.png
+  artifactKey: Guid(cf0d73ad721174dba966f72a9ecc0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/2/Texture_floor_2.png using Guid(cf0d73ad721174dba966f72a9ecc0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a7304a09d7b670746f817bdc771c4bd') in 0.0060513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291008 seconds.
+  path: Assets/Floor materials pack/Texture/3/Texture_floor_3.png
+  artifactKey: Guid(24a611f3351e14d778413a813e31cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/3/Texture_floor_3.png using Guid(24a611f3351e14d778413a813e31cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c847b08846bea30943577992898eba96') in 0.0061247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254749 seconds.
+  path: Assets/Floor materials pack/Texture/5/Texture_floor_5.png
+  artifactKey: Guid(9e7f778dfb54f4919b70ff252c00cfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/5/Texture_floor_5.png using Guid(9e7f778dfb54f4919b70ff252c00cfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6fb0055d19649543d5eadb69c6d569f') in 0.0053334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257030 seconds.
+  path: Assets/Floor materials pack/Texture/7/Texture_floor_7.png
+  artifactKey: Guid(dd1d33c4bacc3465fa434c877b59d903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Texture/7/Texture_floor_7.png using Guid(dd1d33c4bacc3465fa434c877b59d903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba8b5cd1faab478729c01b90044b68aa') in 0.0059869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.087919 seconds.
+  path: Assets/Floor materials pack/Material/Floor_2.mat
+  artifactKey: Guid(42fc5aaea7c054e35b5bb23039ed8186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor materials pack/Material/Floor_2.mat using Guid(42fc5aaea7c054e35b5bb23039ed8186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd6167d6ab0f25fe57c47a37eed8e83e') in 0.9017532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.397296 seconds.
+  path: Assets/PBR Folding Chairs/chFolding.A2.prefab
+  artifactKey: Guid(12c0514646d7b6b45b8439112435321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Folding Chairs/chFolding.A2.prefab using Guid(12c0514646d7b6b45b8439112435321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3841d634d75d213095993ece3724dd7') in 0.0606027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.721757 seconds.
+  path: Assets/PBR Folding Chairs/Materials/chFolding.A2.mat
+  artifactKey: Guid(71a7737cded596849ad70f1cedd92ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Folding Chairs/Materials/chFolding.A2.mat using Guid(71a7737cded596849ad70f1cedd92ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea6e36439ee69a029e07561ed254da9d') in 0.0162097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.157022 seconds.
+  path: Assets/PBR Folding Chairs/Demo Scene/groundMaterial.mat
+  artifactKey: Guid(02ab29f8b2f9f6a49a210388c852c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Folding Chairs/Demo Scene/groundMaterial.mat using Guid(02ab29f8b2f9f6a49a210388c852c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '894f6486dbc242629abefb1e841bfa2d') in 0.009498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.536137 seconds.
+  path: Assets/PBR Folding Chairs/Meshes/chFolding.A_COL.fbx
+  artifactKey: Guid(27f3d7b93e48cb141800fe0434a29064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Folding Chairs/Meshes/chFolding.A_COL.fbx using Guid(27f3d7b93e48cb141800fe0434a29064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7b35ad468e9ea8a4e192e1ebab0aaed') in 0.0266751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.076755 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Bed-03.fbx
+  artifactKey: Guid(5c95d5c1d25b86b4289cb7a8f1bb977b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Bed-03.fbx using Guid(5c95d5c1d25b86b4289cb7a8f1bb977b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da537d63c5fd4f1e0360920854e2cd16') in 1.3083329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.485951 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/Bed_Light.prefab
+  artifactKey: Guid(c03cb52594bdc4d4bbcc2d5a2cb6bf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/Bed_Light.prefab using Guid(c03cb52594bdc4d4bbcc2d5a2cb6bf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dae24781b84c0f2659fd67bb44cc576d') in 0.0446505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainE.prefab
+  artifactKey: Guid(a979b263ca2d1d445b5d1c77ba7c63a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainE.prefab using Guid(a979b263ca2d1d445b5d1c77ba7c63a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb743b1abce6932beca3661ff9aa83f') in 0.0442824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainA.prefab
+  artifactKey: Guid(3c3b4c1aadc01b441a76cfe2bc1ec44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainA.prefab using Guid(3c3b4c1aadc01b441a76cfe2bc1ec44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66b3b5e02a6a9bbe097ca5169571cd70') in 0.0348877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainC.prefab
+  artifactKey: Guid(1ed3edb303ccfd94eb2530a384963178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainC.prefab using Guid(1ed3edb303ccfd94eb2530a384963178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '495326dbe5b0c412217f34d4868fb360') in 0.0383215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainF.prefab
+  artifactKey: Guid(b4876f7dcd3a63c45846da7d703556c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainF.prefab using Guid(b4876f7dcd3a63c45846da7d703556c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '985ed87163071b58dd20659492ddbc21') in 0.0750576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainG.prefab
+  artifactKey: Guid(4625b076a4947fa4399935099cfef3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainG.prefab using Guid(4625b076a4947fa4399935099cfef3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79696787ed61d0a8e47631103bfb33c1') in 0.1508803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/Ceiling_Fan.prefab
+  artifactKey: Guid(c3e5b6e16f36e4344a05c66eb54e1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/Ceiling_Fan.prefab using Guid(c3e5b6e16f36e4344a05c66eb54e1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6751a57b115850367381471ecbb49724') in 0.0334277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/Bedroom_Table_01.prefab
+  artifactKey: Guid(7923e591387379f4781712fada94b33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/Bedroom_Table_01.prefab using Guid(7923e591387379f4781712fada94b33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a62a187a89eb3ae10e2200a55d0f30f') in 0.032795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainD.prefab
+  artifactKey: Guid(4361b62353cb8424cb43d851b2c11262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainD.prefab using Guid(4361b62353cb8424cb43d851b2c11262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ce7048197bdb0f6277c578e66eb4a00') in 0.1340098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainB.prefab
+  artifactKey: Guid(c50b59e82a7afb446b6428de1930a911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Prefab/Bedroom_Set/CurtainB.prefab using Guid(c50b59e82a7afb446b6428de1930a911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac06da34eefd05395b67bcaf08ec42c') in 0.108564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

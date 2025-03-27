@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5009eca976e988c4897ba76fd171b10a
+timeCreated: 1544433655
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135084
+  packageName: PBR Folding Chairs
+  packageVersion: 1.0
+  assetPath: Assets/PBR Folding Chairs/chFolding.A4.prefab
+  uploadId: 283172
