@@ -5,5 +5,6 @@ using UnityEngine.Events;
 
 public interface IInteractObject
 {
+        public bool CanInteract();
         public void Interact();
 }

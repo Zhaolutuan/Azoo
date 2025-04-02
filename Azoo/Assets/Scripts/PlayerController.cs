@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
         public Vector2 OffsetYRange;
         public float SpeedY = 1.0f;
 
+        [Header("Interact")]
+        public ViewHandler ViewHandler;
+
 #if UNITY_EDITOR
         private void OnValidate()
         {
@@ -26,7 +29,7 @@ public class PlayerController : MonoBehaviour
         }
 
 #endif
-    
+
 
         private void Awake()
         {
@@ -38,33 +41,54 @@ public class PlayerController : MonoBehaviour
                 {
                         transposer = vcam.GetCinemachineComponent<CinemachineOrbitalTransposer>();
                 }
+
+                ViewHandler = GetComponentInChildren<ViewHandler>();
         }
 
         // Start is called before the first frame update
         void Start()
         {
-            
-        }
 
-        private void FixedUpdate()
-        {
-                
         }
 
         // Update is called once per frame
         void Update()
         {
+                HandleView();
+                HandleMove();
+                HandleInteract();
+        }
+
+        private void HandleView()
+        {
                 float YAxis = Input.GetAxis("Mouse Y");
                 transposer.m_FollowOffset.y =
                         Mathf.Clamp(transposer.m_FollowOffset.y - YAxis * SpeedY * Time.deltaTime,
                         OffsetYRange.x, OffsetYRange.y);
+        }
 
-        //Move
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        private void HandleMove()
+        {
+                float horizontalInput = Input.GetAxis("Horizontal");
+                float verticalInput = Input.GetAxis("Vertical");
 
-        Quaternion rotation = Quaternion.Euler(0, transposer.m_XAxis.Value, 0);
-        Vector3 direction = rotation * new Vector3(horizontalInput, 0, verticalInput);
-        transform.Translate(speed * Time.deltaTime * direction);
-    }
+                Quaternion rotation = Quaternion.Euler(0, transposer.m_XAxis.Value, 0);
+                Vector3 direction = rotation * new Vector3(horizontalInput, 0, verticalInput);
+                transform.Translate(speed * Time.deltaTime * direction);
+        }
+
+        private void HandleInteract()
+        {
+                if (!Input.GetKeyDown(KeyCode.F)) return;
+
+                var canInteracts = ViewHandler.interactiveObjects.FindAll(x => x.CanInteract());
+                if (canInteracts.Count > 0)
+                {
+                        ViewHandler.interactiveObjects[0].Interact();
+                }
+                else
+                {
+                        UIDialog.Instance.Disable();
+                }
+        }
 }
