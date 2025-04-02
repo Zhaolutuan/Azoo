@@ -993,8 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2617c2d802bc70744a95fd1f08e327c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: "\u6905\u5B50"
-  text: "\u6905\u5B50\u4E0D\u80FD\u5750"
+  dialogText: {fileID: 11400000, guid: 875a71d85b0877c45ab14989915865e5, type: 2}
   showed: 0
 --- !u!4 &289637632 stripped
 Transform:

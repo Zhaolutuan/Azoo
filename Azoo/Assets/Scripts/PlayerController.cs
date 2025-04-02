@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
-                        UIDialog.Instance.Disable();
+                        UIDialog.Instance.Continue();
                 }
         }
 }

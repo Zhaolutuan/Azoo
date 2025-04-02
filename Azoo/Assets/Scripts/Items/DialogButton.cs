@@ -3,8 +3,7 @@ using UnityEngine;
 public class DialogButton : MonoBehaviour, IInteractObject
 {
 
-        public string title;
-        public string text;
+        public DialogText dialogText;
 
         public bool showed = false;
 
@@ -15,7 +14,7 @@ public class DialogButton : MonoBehaviour, IInteractObject
 
         public void Interact()
         {
-                UIDialog.Instance.ShowText(title, text);
+                UIDialog.Instance.ShowDialog(dialogText);
                 showed = true;
         }
 }

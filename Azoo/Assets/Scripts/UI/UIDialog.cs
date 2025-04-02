@@ -6,6 +6,8 @@ public class UIDialog : Singleton<UIDialog>
         public Text title;
         public Text text;
 
+        public DialogText content;
+
         [SerializeField]
         private bool active;
         [SerializeField, Range(0.1f, 2f)]
@@ -28,6 +30,14 @@ public class UIDialog : Singleton<UIDialog>
 
         }
 
+        public void ShowDialog(DialogText dialog)
+        {
+                active = true;
+                content = dialog;
+                title.text = dialog.Name;
+                text.text = dialog.Content;
+        }
+
         public void ShowText(string name, string content)
         {
                 active = true;
@@ -35,9 +45,16 @@ public class UIDialog : Singleton<UIDialog>
                 text.text = content;
         }
 
-        public void Disable()
+        public void Continue()
         {
-                active = false;
+                if (content.next != null)
+                {
+                        ShowDialog(content.next);
+                }
+                else
+                {
+                        active = false;
+                }
         }
 
 }
