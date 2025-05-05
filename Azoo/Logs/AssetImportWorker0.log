@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '2023.2/china_unity/20f1' branch; Version is '2023.2.20f1c1 (ceda3f59bbc9) revision 13556287'; Using compiler version '193431935'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'zh' Physical Memory: 64765 MB
+OS: 'Windows 11  (10.0.26100) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 40768 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\UnityInstalls\2023.2.20f1c1\Editor\Unity.exe
+E:\code\unity hub\----Unity_editor\2023.2.20f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/scripts/AZoo/Azoo/Azoo
+G:/北理本科/大三下/游戏开发/Azoo/Azoo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8774
+56417
 -job-worker-count
-7
+9
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: E:/scripts/AZoo/Azoo/Azoo
-E:/scripts/AZoo/Azoo/Azoo
+Successfully changed project path to: G:/北理本科/大三下/游戏开发/Azoo/Azoo
+G:/北理本科/大三下/游戏开发/Azoo/Azoo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,65 +58,65 @@ E:/scripts/AZoo/Azoo/Azoo
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27016] Host "[IP] 192.168.92.1 [Port] 0 [Flags] 2 [Guid] 3085316402 [EditorId] 3085316402 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ERIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [27016] Host "[IP] 192.168.92.1 [Port] 0 [Flags] 2 [Guid] 3085316402 [EditorId] 3085316402 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ERIE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Player connection [18384] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 526428562 [EditorId] 526428562 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18384] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 526428562 [EditorId] 526428562 [Version] 1048832 [Id] WindowsEditor(7,QIERXIE-NB0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.20f1c1 (ceda3f59bbc9)
-[Subsystems] Discovering subsystems at path E:/UnityInstalls/2023.2.20f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/scripts/AZoo/Azoo/Azoo/Assets
+[Subsystems] Discovering subsystems at path E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/北理本科/大三下/游戏开发/Azoo/Azoo/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Graphics (ID=0x1681)
-    Vendor:   ATI
-    VRAM:     32382 MB
-    Driver:   32.0.11037.4004
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.7283
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
 Initialize mono
-Mono path[0] = 'E:/UnityInstalls/2023.2.20f1c1/Editor/Data/Managed'
-Mono path[1] = 'E:/UnityInstalls/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/UnityInstalls/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Mono path[0] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/UnityInstalls/2023.2.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004463 seconds.
-- Loaded All Assemblies, in  0.780 seconds
+Register platform support module: E:/code/unity hub/----Unity_editor/2023.2.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004166 seconds.
+- Loaded All Assemblies, in  0.406 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.596 seconds
-Domain Reload Profiling: 1374ms
-	BeginReloadAssembly (256ms)
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 724ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (334ms)
-		LoadAssemblies (250ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (144ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (330ms)
-			TypeCache.Refresh (327ms)
-				TypeCache.ScanAssembly (300ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (120ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (597ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (324ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (484ms)
+		SetupLoadedEditorAssemblies (272ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,568 +125,330 @@ Domain Reload Profiling: 1374ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.905 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.771 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.846 seconds
-Domain Reload Profiling: 3745ms
-	BeginReloadAssembly (786ms)
+- Finished resetting the current domain, in  1.371 seconds
+Domain Reload Profiling: 3132ms
+	BeginReloadAssembly (876ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (103ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (915ms)
-		LoadAssemblies (589ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (752ms)
+		LoadAssemblies (866ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (515ms)
-			TypeCache.Refresh (392ms)
-				TypeCache.ScanAssembly (362ms)
-			BuildScriptInfoCaches (74ms)
-			ResolveRequiredComponents (45ms)
-	FinalizeReload (1847ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (161ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1372ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1345ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (1107ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6501 unused Assets / (6.3 MB). Loaded Objects now: 7223.
-Memory consumption went from 271.0 MB to 264.7 MB.
-Total: 18.338700 ms (FindLiveObjects: 1.538600 ms CreateObjectMapping: 1.346000 ms MarkObjects: 9.918200 ms  DeleteObjects: 5.533900 ms)
-
-========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 40.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6494 unused Assets / (6.1 MB). Loaded Objects now: 7223.
-Memory consumption went from 234.5 MB to 228.4 MB.
-Total: 33.143200 ms (FindLiveObjects: 1.424000 ms CreateObjectMapping: 1.840600 ms MarkObjects: 24.726300 ms  DeleteObjects: 5.150300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6494 unused Assets / (6.2 MB). Loaded Objects now: 7223.
-Memory consumption went from 233.8 MB to 227.5 MB.
-Total: 17.577400 ms (FindLiveObjects: 1.488500 ms CreateObjectMapping: 1.120300 ms MarkObjects: 9.766500 ms  DeleteObjects: 5.200800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6494 unused Assets / (5.6 MB). Loaded Objects now: 7223.
-Memory consumption went from 233.8 MB to 228.2 MB.
-Total: 14.235200 ms (FindLiveObjects: 1.129900 ms CreateObjectMapping: 0.957100 ms MarkObjects: 8.729000 ms  DeleteObjects: 3.417500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6494 unused Assets / (5.8 MB). Loaded Objects now: 7223.
-Memory consumption went from 233.8 MB to 228.0 MB.
-Total: 16.548200 ms (FindLiveObjects: 1.048200 ms CreateObjectMapping: 1.694500 ms MarkObjects: 8.773300 ms  DeleteObjects: 5.030200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6494 unused Assets / (5.8 MB). Loaded Objects now: 7223.
-Memory consumption went from 233.8 MB to 228.0 MB.
-Total: 21.151700 ms (FindLiveObjects: 1.328900 ms CreateObjectMapping: 1.560400 ms MarkObjects: 12.297300 ms  DeleteObjects: 5.963200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6494 unused Assets / (6.3 MB). Loaded Objects now: 7223.
-Memory consumption went from 233.8 MB to 227.5 MB.
-Total: 18.681800 ms (FindLiveObjects: 1.322200 ms CreateObjectMapping: 1.399200 ms MarkObjects: 11.279700 ms  DeleteObjects: 4.678900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.374 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.613 seconds
-Domain Reload Profiling: 2987ms
-	BeginReloadAssembly (324ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (901ms)
-		LoadAssemblies (529ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (538ms)
-			TypeCache.Refresh (24ms)
-				TypeCache.ScanAssembly (9ms)
-			BuildScriptInfoCaches (467ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (1614ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1138ms)
+		SetupLoadedEditorAssemblies (857ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (915ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (673ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
+		AwakeInstancesAfterBackupRestoration (112ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6511 unused Assets / (5.9 MB). Loaded Objects now: 7231.
+Memory consumption went from 268.9 MB to 263.0 MB.
+Total: 19.069900 ms (FindLiveObjects: 0.729300 ms CreateObjectMapping: 0.908300 ms MarkObjects: 13.651700 ms  DeleteObjects: 3.778500 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\北理本科\大三下\游戏开发\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.734 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (96ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (679ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6499 unused Assets / (6.2 MB). Loaded Objects now: 7224.
-Memory consumption went from 238.9 MB to 232.6 MB.
-Total: 15.082400 ms (FindLiveObjects: 0.895200 ms CreateObjectMapping: 0.616200 ms MarkObjects: 8.733400 ms  DeleteObjects: 4.835900 ms)
+Unloading 6509 unused Assets / (5.9 MB). Loaded Objects now: 7232.
+Memory consumption went from 237.6 MB to 231.7 MB.
+Total: 12.331200 ms (FindLiveObjects: 0.742400 ms CreateObjectMapping: 0.953800 ms MarkObjects: 6.566800 ms  DeleteObjects: 4.066300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6505 unused Assets / (6.1 MB). Loaded Objects now: 7232.
-Memory consumption went from 238.9 MB to 232.8 MB.
-Total: 17.850400 ms (FindLiveObjects: 1.457100 ms CreateObjectMapping: 1.910500 ms MarkObjects: 9.339500 ms  DeleteObjects: 5.141700 ms)
+Received Import Request.
+  Time since last request: 1654.835559 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6964297ec1b0d6f4f673a4c702563ed') in 0.0483876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.376 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.620 seconds
-Domain Reload Profiling: 2993ms
-	BeginReloadAssembly (339ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (885ms)
-		LoadAssemblies (585ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (479ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (214ms)
-			BuildScriptInfoCaches (193ms)
-			ResolveRequiredComponents (46ms)
-	FinalizeReload (1621ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1185ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (931ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (75ms)
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6510 unused Assets / (5.9 MB). Loaded Objects now: 7238.
-Memory consumption went from 244.7 MB to 238.8 MB.
-Total: 15.673500 ms (FindLiveObjects: 0.896500 ms CreateObjectMapping: 1.154300 ms MarkObjects: 8.531800 ms  DeleteObjects: 5.089500 ms)
+Received Import Request.
+  Time since last request: 13.191640 seconds.
+  path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Background/Background.fbx
+  artifactKey: Guid(93667318b5de24146bffa2041c96fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Background/Background.fbx using Guid(93667318b5de24146bffa2041c96fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83030d2c201dde4166c2cc680415ff82') in 1.0563259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.251 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.437 seconds
-Domain Reload Profiling: 2687ms
-	BeginReloadAssembly (330ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (90ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (774ms)
-		LoadAssemblies (548ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (396ms)
-			TypeCache.Refresh (221ms)
-				TypeCache.ScanAssembly (201ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (1438ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1037ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (837ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6510 unused Assets / (6.4 MB). Loaded Objects now: 7238.
-Memory consumption went from 246.6 MB to 240.2 MB.
-Total: 16.874900 ms (FindLiveObjects: 1.108600 ms CreateObjectMapping: 1.151100 ms MarkObjects: 9.918200 ms  DeleteObjects: 4.695500 ms)
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/SequencingDemo/Prefabs/Crate.fbx
+  artifactKey: Guid(d15c44bfaa8a88c4790fa0fa2782404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/SequencingDemo/Prefabs/Crate.fbx using Guid(d15c44bfaa8a88c4790fa0fa2782404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40047ff1f2a699cf00ecff2551926dd9') in 0.0196024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6504 unused Assets / (5.7 MB). Loaded Objects now: 7237.
-Memory consumption went from 246.7 MB to 241.1 MB.
-Total: 15.473500 ms (FindLiveObjects: 1.219300 ms CreateObjectMapping: 1.278600 ms MarkObjects: 8.055300 ms  DeleteObjects: 4.918300 ms)
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Cube.fbx
+  artifactKey: Guid(71c1a7d31ae1f5148bd68555e9baee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Cube.fbx using Guid(71c1a7d31ae1f5148bd68555e9baee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f24e67893b2fb7285356f21d56870099') in 0.0172059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.300 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.456 seconds
-Domain Reload Profiling: 2757ms
-	BeginReloadAssembly (359ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (88ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (802ms)
-		LoadAssemblies (565ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (429ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (182ms)
-			BuildScriptInfoCaches (185ms)
-			ResolveRequiredComponents (39ms)
-	FinalizeReload (1457ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1076ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (872ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6509 unused Assets / (4.9 MB). Loaded Objects now: 7237.
-Memory consumption went from 248.5 MB to 243.5 MB.
-Total: 14.418600 ms (FindLiveObjects: 0.877700 ms CreateObjectMapping: 0.656600 ms MarkObjects: 8.445600 ms  DeleteObjects: 4.437200 ms)
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Rock1.fbx
+  artifactKey: Guid(01dfcbf4ce9664c41ab1cf3609c59ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Rock1.fbx using Guid(01dfcbf4ce9664c41ab1cf3609c59ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '543c8c30699dd53a5978e322a54d950f') in 0.0168262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6504 unused Assets / (5.4 MB). Loaded Objects now: 7237.
-Memory consumption went from 248.6 MB to 243.2 MB.
-Total: 66.357800 ms (FindLiveObjects: 1.413300 ms CreateObjectMapping: 1.858900 ms MarkObjects: 57.667000 ms  DeleteObjects: 5.416900 ms)
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph
+  artifactKey: Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph using Guid(5c81372d981403744adbdda4433c9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e9508ae05dbf480152a50049e354831') in 0.9556938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6504 unused Assets / (5.6 MB). Loaded Objects now: 7237.
-Memory consumption went from 248.6 MB to 243.1 MB.
-Total: 14.618600 ms (FindLiveObjects: 0.955200 ms CreateObjectMapping: 1.200600 ms MarkObjects: 8.405500 ms  DeleteObjects: 4.056100 ms)
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Park Assets/Models/Flower_1.fbx
+  artifactKey: Guid(66abc4e0dfcc6bf478424249b8cfa8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Park Assets/Models/Flower_1.fbx using Guid(66abc4e0dfcc6bf478424249b8cfa8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '665976c430e677280a9956949ec92eea') in 0.0145494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.196 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.447 seconds
-Domain Reload Profiling: 2644ms
-	BeginReloadAssembly (319ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (84ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (742ms)
-		LoadAssemblies (554ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (45ms)
-				TypeCache.ScanAssembly (32ms)
-			BuildScriptInfoCaches (264ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (1448ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1036ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (834ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6509 unused Assets / (5.9 MB). Loaded Objects now: 7237.
-Memory consumption went from 250.4 MB to 244.5 MB.
-Total: 15.079400 ms (FindLiveObjects: 0.921600 ms CreateObjectMapping: 0.958700 ms MarkObjects: 7.774200 ms  DeleteObjects: 5.421700 ms)
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Bedroom_Table_01.mat
+  artifactKey: Guid(fbf713ec5dee3804cbf4c47fc2338bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Material/Bedroom_Set/Bedroom_Table_01.mat using Guid(fbf713ec5dee3804cbf4c47fc2338bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9b881a7153e22312a05d6107b3d2a2a') in 1.0991092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6504 unused Assets / (6.3 MB). Loaded Objects now: 7237.
-Memory consumption went from 250.5 MB to 244.2 MB.
-Total: 19.884600 ms (FindLiveObjects: 1.343000 ms CreateObjectMapping: 1.343800 ms MarkObjects: 11.733100 ms  DeleteObjects: 5.462900 ms)
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Clovers_B.fbx
+  artifactKey: Guid(8e0cdace2b6b5d94e91d08c0e4ed766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Clovers_B.fbx using Guid(8e0cdace2b6b5d94e91d08c0e4ed766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0a863eaef31badad52c8ab28f272da') in 0.0218061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.212 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.494 seconds
-Domain Reload Profiling: 2707ms
-	BeginReloadAssembly (328ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (754ms)
-		LoadAssemblies (562ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (354ms)
-			TypeCache.Refresh (46ms)
-				TypeCache.ScanAssembly (32ms)
-			BuildScriptInfoCaches (265ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (1495ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1097ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (884ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6509 unused Assets / (6.1 MB). Loaded Objects now: 7237.
-Memory consumption went from 252.3 MB to 246.3 MB.
-Total: 16.668500 ms (FindLiveObjects: 1.320400 ms CreateObjectMapping: 0.686400 ms MarkObjects: 9.913700 ms  DeleteObjects: 4.746400 ms)
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Towers/Materials/Cloth.mat
+  artifactKey: Guid(9dc2c83cac1f53043a5c9872ac0eedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Materials/Cloth.mat using Guid(9dc2c83cac1f53043a5c9872ac0eedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72b3c028d0be21fbe7cecab3064f6465') in 0.0133629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6504 unused Assets / (6.2 MB). Loaded Objects now: 7237.
-Memory consumption went from 252.5 MB to 246.3 MB.
-Total: 19.747400 ms (FindLiveObjects: 1.542000 ms CreateObjectMapping: 1.768000 ms MarkObjects: 11.166400 ms  DeleteObjects: 5.269400 ms)
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Dude/MMFeedbackDemoDude@TPose.fbx
+  artifactKey: Guid(2a4a40e5b8a2c674d9d8d35164810540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDownEngine/ThirdParty/MoreMountains/MMFeedbacks/Demos/MMFeedbacksDemo/Models/Dude/MMFeedbackDemoDude@TPose.fbx using Guid(2a4a40e5b8a2c674d9d8d35164810540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e14dae0f2c2e633e7c2d561fbc0e8f7c') in 0.069691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 116
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\scripts\AZoo\Azoo\Azoo\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.218 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.436 seconds
-Domain Reload Profiling: 2651ms
-	BeginReloadAssembly (315ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (768ms)
-		LoadAssemblies (557ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (373ms)
-			TypeCache.Refresh (48ms)
-				TypeCache.ScanAssembly (34ms)
-			BuildScriptInfoCaches (271ms)
-			ResolveRequiredComponents (48ms)
-	FinalizeReload (1437ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1042ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (854ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6509 unused Assets / (6.0 MB). Loaded Objects now: 7237.
-Memory consumption went from 254.2 MB to 248.3 MB.
-Total: 15.299400 ms (FindLiveObjects: 0.937300 ms CreateObjectMapping: 1.055100 ms MarkObjects: 9.321500 ms  DeleteObjects: 3.983700 ms)
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
+  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27557c9b813c936a1604d1d4609dd075') in 0.8559915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Towers/Models/SafeTower 2.fbx
+  artifactKey: Guid(01afc69b1b769c1459549480d70eed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Models/SafeTower 2.fbx using Guid(01afc69b1b769c1459549480d70eed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75a073b7b97d963ac1cd0a800eff6a48') in 0.0781837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PBR Folding Chairs/Meshes/chFolding.A_COL.fbx
+  artifactKey: Guid(27f3d7b93e48cb141800fe0434a29064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Folding Chairs/Meshes/chFolding.A_COL.fbx using Guid(27f3d7b93e48cb141800fe0434a29064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6847a4bd54c2f478955559fe38201ab') in 0.0157612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Park Assets/Models/Hill_01.fbx
+  artifactKey: Guid(d5bc75c3e8fd6f74797ce7837813f31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Park Assets/Models/Hill_01.fbx using Guid(d5bc75c3e8fd6f74797ce7837813f31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '503dccf125efadce649dd658e6f856fc') in 0.0144496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Park Assets/Models/Flower_2.fbx
+  artifactKey: Guid(ff5729a1f1a706043a905443786a328d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Park Assets/Models/Flower_2.fbx using Guid(ff5729a1f1a706043a905443786a328d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bba19f7544c9422947430abdb7963a0d') in 0.0132111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Fern_C.fbx
+  artifactKey: Guid(875fb56756d6ac54995f8e1abb5f5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Fern_C.fbx using Guid(875fb56756d6ac54995f8e1abb5f5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdb9f0d3d4d970ee00c3edf2bcf40b11') in 0.0166983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bed_03/Materials/Bed_sheet_pillow_Height.mat
+  artifactKey: Guid(62b41b4009973fc45ad2274af50599a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Texture Maps/Bedroom_Set/Bed_03/Materials/Bed_sheet_pillow_Height.mat using Guid(62b41b4009973fc45ad2274af50599a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40e7e82ebc00aed2cddd80b9c28b731c') in 0.028805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '514eac525f3792e669a2053f4387ac53') in 1.2490658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+  artifactKey: Guid(9e1c97fc44f9a8744b61b58f72c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx using Guid(9e1c97fc44f9a8744b61b58f72c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbd44a067eaa83051d3e322faa686b89') in 0.0136456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GeniusCrate_Games/Bathroom_Set/Model/Bathroom_props_set/Iron_Wooden_Table.fbx
+  artifactKey: Guid(7c79074ce3938c649af609e2b4b33773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bathroom_Set/Model/Bathroom_props_set/Iron_Wooden_Table.fbx using Guid(7c79074ce3938c649af609e2b4b33773) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '251ebad589ece193b3ad98186ef7dde3') in 0.0510077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Bed-02.fbx
+  artifactKey: Guid(11bf8da6fb6b14a49887014c218fd62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Bed-02.fbx using Guid(11bf8da6fb6b14a49887014c218fd62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '264e4d0df458b6e0644aa8d8f8469eb5') in 0.0448015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Bush_D.fbx
+  artifactKey: Guid(5166fe4248fda584193677730d763a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Bush_D.fbx using Guid(5166fe4248fda584193677730d763a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81067b88d4eee7951ade669a1a58b1b0') in 0.0284507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Curtain_rod.fbx
+  artifactKey: Guid(20e5a616a7b2fd74d8f324579d5480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Curtain_rod.fbx using Guid(20e5a616a7b2fd74d8f324579d5480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b08df9d3b8925ad40c4b8d0ef89cf45') in 0.0348573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Park Assets/Models/Bench.fbx
+  artifactKey: Guid(30d872e7273ede5469e4fa7526c55130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Park Assets/Models/Bench.fbx using Guid(30d872e7273ede5469e4fa7526c55130) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ba5a4970078650bf6435ba043ced7bd') in 0.0205806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Bedroom_Table_01.fbx
+  artifactKey: Guid(c7495b98ad28a9743bb2b9b6848a4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Bedroom_Set/Model/Bedroom_Set/Bedroom_Table_01.fbx using Guid(c7495b98ad28a9743bb2b9b6848a4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb75133c4727e50313965551416b41a') in 0.0770709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Flowers_E.fbx
+  artifactKey: Guid(0c60f2a9c5dc5ce4ebb20921f8671e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vegetation_Stylized_Pack_ByLuxArtStudios/Mesh/Bushes/S_Flowers_E.fbx using Guid(0c60f2a9c5dc5ce4ebb20921f8671e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '454f07147957d9a38bd4797b52c7cea8') in 0.0276391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Towers/Models/Dish.fbx
+  artifactKey: Guid(a73a79b3466c39449b65fd60ccf74cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Towers/Models/Dish.fbx using Guid(a73a79b3466c39449b65fd60ccf74cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c06d6cf0ad3060907ab6e3105bd801') in 0.0319044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
