@@ -10,22 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e84c22f45c252bf409ed88b967c88bb7, type: 3}
-  m_Name: "\u552E\u8D27\u673A"
+  m_Name: "\u72EE\u5B50_\u6B63\u5E38"
   m_EditorClassIdentifier: 
-  Conditions:
-  - ArgName: HP
-    value: 0
-    ConditionType: 3
-  Effects:
-  - ArgName: HP
-    value: 5
-    EffectType: 3
+  Conditions: []
+  Effects: []
   Sentences:
-  - Name: "\u552E\u8D27\u673A"
-    Content: "\u4F3C\u4E4E\u662F\u4E00\u4E2A\u552E\u8D27\u673A\uFF0C\u4E0D\u77E5\u9053\u662F\u5426\u4F1A\u6709\u4E00\u4E9B\u53EF\u4EE5\u8D2D\u4E70\u7684"
+  - Name: "\u6B63\u5E38\u7684\u72EE\u5B50"
+    Content: "\u4F60\u8EAB\u4E0A\u6709\u95E8\u7968 \u53EF\u4EE5\u79BB\u5F00"
   Choices:
-  - Name: "\u4E70\u70B9\u8BD5\u8BD5"
+  - Name: "\u8C22\u8C22\u8001\u7237"
     NextDialog: {fileID: 0}
-  - Name: "\u7B97\u4E86\u5427"
+  - Name: "\u4E0D\u6211\u4E0D\u8D70"
     NextDialog: {fileID: 0}
   Log: 
