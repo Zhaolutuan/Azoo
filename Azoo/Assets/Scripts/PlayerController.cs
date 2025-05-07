@@ -233,6 +233,7 @@ public class PlayerController : MonoBehaviour
                                 Debug.Log("Action F triggered");
                         }
                 }
+                else UIManager.Instance.StopIndicateInteract();
         }
 
         void PrintDebugInfo()

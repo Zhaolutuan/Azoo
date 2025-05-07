@@ -7,6 +7,7 @@ public class UIManager : Singleton<UIManager>
         [Header("Refs")]
         public GameObject Interaction;
         public Text InteractionText;
+        public UIDialog Dialog;
         [Header("Auto")]
         public GameObject ManagingUI;
 

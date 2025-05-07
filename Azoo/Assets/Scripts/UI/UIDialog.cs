@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Collections;
 
-public class UIDialog : Singleton<UIDialog>
+public class UIDialog : MonoBehaviour
 {
         [Header("Dialog")]
         public List<DialoSentence> content;
