@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f901b0d19bfa4e49a80be0cfb36ff22
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148788
+  packageName: Parking machine
+  packageVersion: 1.0
+  assetPath: Assets/Parking mahine/prefabs/parking_machine_prefab.prefab
+  uploadId: 734904

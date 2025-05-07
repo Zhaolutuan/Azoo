@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 978a51e1dc4fc904eb421ea783f6658f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148788
+  packageName: Parking machine
+  packageVersion: 1.0
+  assetPath: Assets/Parking mahine/materials/parking_machine_qpark1_mat.mat
+  uploadId: 734904
