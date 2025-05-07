@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\IInteractObject.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\Tree_Packs\URP_Tree_Pack\Scripts\LB_CameraMove.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Free Wood Door Pack\Script\CameraOpenDoor.cs" />
@@ -90,11 +91,14 @@
   <ItemGroup>
     <None Include="Assets\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Tree_Packs\URP_Tree_Pack\Doc\1_Readme.txt" />
     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\GreyScale.shader" />
+    <None Include="Assets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
     <None Include="Assets\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ALP_Assets\Big Oak Tree FREE\Shaders\ALP Billboard Cross Wind.shader" />
     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\VerticalGradient.shader" />
     <None Include="Assets\TopDownEngine\license.txt" />
+    <None Include="Assets\Tree_Packs\URP_Tree_Pack\Doc\2_Notices.txt" />
     <None Include="Assets\DOTween\readme.txt" />
     <None Include="Assets\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Vegetation_Stylized_Pack_ByLuxArtStudios\Shader\S_ShaderTree.shader" />
