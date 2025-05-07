@@ -1,13 +1,16 @@
 using System.Collections.Generic;
+using System.Text;
 
 public class SaveManager : ConsistantSingleton<SaveManager>
 {
 
         public Dictionary<string, int> SavedData;
+        public StringBuilder Logs;
 
         protected override void Awake()
         {
                 base.Awake();
+                Logs = new();
                 SavedData = new();
         }
 

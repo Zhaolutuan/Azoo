@@ -7,7 +7,6 @@ public class UIIngameMenu : MonoBehaviour
 {
 
         public string mainMenuSceneName = "MainMenu";
-        public StringBuilder Logs;
 
         [Header("Refs")]
         public GameObject panel;
@@ -16,12 +15,6 @@ public class UIIngameMenu : MonoBehaviour
         public Text logsText;
         public GameObject DebugPrefab;
         public RectTransform DebugRoot;
-
-        // Start is called before the first frame update
-        void Start()
-        {
-                Logs = new();
-        }
 
         private void Update()
         {
@@ -45,7 +38,7 @@ public class UIIngameMenu : MonoBehaviour
                         panel.SetActive(true);
                         Time.timeScale = 0f;
 
-                        logsText.text = Logs.ToString();
+                        logsText.text = SaveManager.Instance.Logs.ToString();
                 }
         }
 

@@ -59,6 +59,8 @@ public class DialogText : ScriptableObject
         public List<DialoSentence> Sentences;
         public List<DialogChoice> Choices;
 
+        public string Log;
+
         public bool CanShow()
         {
                 foreach (var condition in Conditions)

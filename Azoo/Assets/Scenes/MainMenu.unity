@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6527c9268394d84449da02ddf8e80953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirstSceneName: Lion
+  FirstSceneName: UITest
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

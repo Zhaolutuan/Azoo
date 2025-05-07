@@ -8,6 +8,7 @@ public class UIDialog : MonoBehaviour
         [Header("Dialog")]
         public List<DialoSentence> content;
         public List<DialogChoice> choices;
+        public DialogText current;
 
         [Header("Anim")]
         [SerializeField]
@@ -55,6 +56,7 @@ public class UIDialog : MonoBehaviour
                         active = true;
                         content = new(dialog.Sentences);
                         choices = new(dialog.Choices);
+                        current = dialog;
                         StartCoroutine(ShowText());
                 });
         }
@@ -125,6 +127,14 @@ public class UIDialog : MonoBehaviour
                 }
                 text.text = content[0].Content;
                 content.RemoveAt(0);
+
+                if (content.Count == 0)
+                {
+                        if (string.IsNullOrEmpty(current.Log) == false)
+                                SaveManager.Instance.Logs.AppendLine(current.Log);
+                        current.ApplyEffects();
+                }
+
                 DialogAnimatiing = false;
         }
 
