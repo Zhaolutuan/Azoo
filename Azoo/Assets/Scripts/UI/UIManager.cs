@@ -1,5 +1,7 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
@@ -40,6 +42,7 @@ public class UIManager : Singleton<UIManager>
         {
                 if (ManagingUI == null)
                 {
+                        Debug.Log("TryManageUI:" + self);
                         ManagingUI = self;
                         InclusiveUI = true;
                         Cursor.lockState = CursorLockMode.None;
@@ -53,6 +56,7 @@ public class UIManager : Singleton<UIManager>
         {
                 if (ManagingUI == self)
                 {
+                        Debug.Log("StopManageUI:" + self);
                         ManagingUI = null;
                         Cursor.lockState = CursorLockMode.Locked;
                         Cursor.visible = false;

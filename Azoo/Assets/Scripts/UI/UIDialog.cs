@@ -13,6 +13,8 @@ public class UIDialog : MonoBehaviour
         [Header("Anim")]
         [SerializeField]
         private bool active;
+        [SerializeField]
+        private bool choosing;
         [SerializeField, Range(0.1f, 2f)]
         private float fadeTime = 0.5f;
         [Header("Refs")]
@@ -78,7 +80,7 @@ public class UIDialog : MonoBehaviour
                         ShowChoice();
                         return;
                 }
-                else
+                else if (choosing == false)
                 {
                         active = false;
                         UIManager.Instance.StopManageUI(gameObject);
@@ -88,7 +90,9 @@ public class UIDialog : MonoBehaviour
 
         private void ShowChoice()
         {
+
                 active = false;
+                choosing = true;
                 OptionPanel.SetActive(true);
                 foreach (Transform child in OptionParent)
                 {
@@ -102,9 +106,11 @@ public class UIDialog : MonoBehaviour
                         option.GetComponent<Button>().onClick.AddListener(() =>
                         {
                                 OptionPanel.SetActive(false);
+                                choosing = false;
                                 ShowDialog(choice.NextDialog);
                         });
                 }
+                choices = null;
         }
         private IEnumerator ShowText()
         {
@@ -133,6 +139,7 @@ public class UIDialog : MonoBehaviour
                         if (string.IsNullOrEmpty(current.Log) == false)
                                 SaveManager.Instance.Logs.AppendLine(current.Log);
                         current.ApplyEffects();
+                        content = null;
                 }
 
                 DialogAnimatiing = false;
