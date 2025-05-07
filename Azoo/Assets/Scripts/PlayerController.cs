@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
         public float SpeedY = 1.0f;
 
         [Header("Interact")]
-        public ViewHandler ViewHandler;
+        public ViewHandler _viewHandler;
 
 #if UNITY_EDITOR
         private void OnValidate()
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
                         transposer = vcam.GetCinemachineComponent<CinemachineOrbitalTransposer>();
                 }
 
-                ViewHandler = GetComponentInChildren<ViewHandler>();
+                _viewHandler = GetComponentInChildren<ViewHandler>();
         }
 
         // Start is called before the first frame update
@@ -80,11 +80,11 @@ public class PlayerController : MonoBehaviour
 
         private void HandleInteract()
         {
-                var canInteracts = ViewHandler.interactiveObjects.FindAll(x => x.CanInteract());
+                var canInteracts = _viewHandler.interactiveObjects.FindAll(x => x.CanInteract());
                 UIManager.Instance.CanInteract.SetActive(canInteracts.Count > 0);
                 if (Input.GetKeyDown(KeyCode.F) && canInteracts.Count > 0)
                 {
-                        ViewHandler.interactiveObjects[0].Interact();
+                        _viewHandler.interactiveObjects[0].Interact();
                 }
         }
 }
