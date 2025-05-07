@@ -12,7 +12,7 @@ public class UIManager : Singleton<UIManager>
         [Header("Auto")]
         public GameObject ManagingUI;
 
-        public bool InclusiveUI => ManagingUI != null;
+        public bool InclusiveUI = false;
 
         protected override void Awake()
         {
@@ -22,6 +22,7 @@ public class UIManager : Singleton<UIManager>
 
         private void Update()
         {
+                if (InclusiveUI && ManagingUI == null) InclusiveUI = false;
         }
 
         public void ManageUIWith(GameObject self, System.Action action)
@@ -40,6 +41,7 @@ public class UIManager : Singleton<UIManager>
                 if (ManagingUI == null)
                 {
                         ManagingUI = self;
+                        InclusiveUI = true;
                         Cursor.lockState = CursorLockMode.None;
                         Cursor.visible = true;
                         return true;
