@@ -1,18 +1,25 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
 {
-
-        public GameObject CanInteract;
+        [Header("Refs")]
+        public GameObject Interaction;
+        public Text InteractionText;
         [Header("Auto")]
-        public bool InclusiveUI => ManagingUI != null;
         public GameObject ManagingUI;
+
+        public bool InclusiveUI => ManagingUI != null;
 
         protected override void Awake()
         {
                 base.Awake();
                 ManagingUI = null;
+        }
+
+        private void Update()
+        {
         }
 
         public void ManageUIWith(GameObject self, System.Action action)
@@ -44,6 +51,19 @@ public class UIManager : Singleton<UIManager>
                         return true;
                 }
                 return false;
+        }
+
+        public void IndicateInteract(IInteractObject interactObject)
+        {
+                if (Interaction == null) return;
+                InteractionText.text = interactObject.Name;
+                Interaction.gameObject.SetActive(true);
+        }
+
+        public void StopIndicateInteract()
+        {
+                if (Interaction == null) return;
+                Interaction.gameObject.SetActive(false);
         }
 
 }

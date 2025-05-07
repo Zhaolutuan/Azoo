@@ -2,19 +2,18 @@ using UnityEngine;
 
 public class DialogButton : MonoBehaviour, IInteractObject
 {
-
+        public string Name;
         public DialogText dialogText;
 
-        public bool showed = false;
+        string IInteractObject.Name => Name;
 
         public bool CanInteract()
         {
-                return !showed;
+                return dialogText.CanShow();
         }
 
         public void Interact()
         {
                 UIDialog.Instance.ShowDialog(dialogText);
-                showed = true;
         }
 }

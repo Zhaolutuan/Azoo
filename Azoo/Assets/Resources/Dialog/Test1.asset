@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84c22f45c252bf409ed88b967c88bb7, type: 3}
   m_Name: Test1
   m_EditorClassIdentifier: 
+  Conditions: []
+  Effects: []
   Sentences:
   - Name: Test1
     Content: 111
