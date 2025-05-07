@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Test1
   m_EditorClassIdentifier: 
   Conditions: []
-  Effects: []
+  Effects:
+  - ArgName: HP
+    value: 5
+    EffectType: 3
   Sentences:
   - Name: Test1
     Content: 111
@@ -21,10 +24,5 @@ MonoBehaviour:
     Content: 222
   - Name: Test3
     Content: 333
-  Choices:
-  - Name: 111
-    NextDialog: {fileID: 0}
-  - Name: 2222
-    NextDialog: {fileID: 0}
-  - Name: 333
-    NextDialog: {fileID: 0}
+  Choices: []
+  Log: 111

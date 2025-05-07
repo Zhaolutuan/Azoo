@@ -73,21 +73,29 @@ public class PlayerController : MonoBehaviour
 
         void Update()
         {
+                float horizontal = Input.GetAxis("Horizontal");
+                float vertical = Mathf.Clamp(Input.GetAxis("Vertical"), 0, 999);
+                bool spacePressed = Input.GetKeyDown(KeyCode.Space);
+                float mouseX = Input.GetAxis("Mouse X") * cameraSensitivity;
+                float mouseY = Input.GetAxis("Mouse Y") * cameraSensitivity;
+                float scroll = Input.GetAxis("Mouse ScrollWheel");
+
                 if (UIManager.Instance.InclusiveUI)
                 {
                         UIManager.Instance.StopIndicateInteract();
-                        Cursor.lockState = CursorLockMode.None;
-                        Cursor.visible = true;
-                        return;
+                        horizontal = 0;
+                        vertical = 0;
+                        spacePressed = false;
+                        mouseX = 0;
+                        mouseY = 0;
+                        scroll = 0;
                 }
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
 
                 HandleGroundCheck();
-                HandleCameraRotation();
-                HandleMovement();
-                HandleJump();
-                HandleCameraZoom();
+                HandleCameraRotation(mouseX, mouseY);
+                HandleMovement(horizontal, vertical);
+                HandleJump(spacePressed);
+                HandleCameraZoom(scroll);
                 UpdateCameraPosition();
 
                 HandleFallAnimation();
@@ -110,10 +118,9 @@ public class PlayerController : MonoBehaviour
                 Debug.DrawRay(checkPos, Vector3.down * groundCheckRadius, isGrounded ? Color.green : Color.red);
         }
 
-        void HandleMovement()
+        void HandleMovement(float horizontal, float vertical)
         {
-                float horizontal = Input.GetAxis("Horizontal");
-                float vertical = Input.GetAxis("Vertical");
+
 
                 // 基于镜头方向计算移动方向
                 Vector3 cameraForward = playerCamera.transform.forward;
@@ -165,9 +172,9 @@ public class PlayerController : MonoBehaviour
                 _animator.SetFloat(_verticalVelocityHash, _controller.velocity.y);
         }
 
-        void HandleJump()
+        void HandleJump(bool spacePressed)
         {
-                if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+                if (isGrounded && spacePressed)
                 {
                         verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
                         isGrounded = false; // 立即标记为未接地
@@ -177,19 +184,16 @@ public class PlayerController : MonoBehaviour
                 }
         }
 
-        void HandleCameraRotation()
+        void HandleCameraRotation(float mouseX, float mouseY)
         {
-                float mouseX = Input.GetAxis("Mouse X") * cameraSensitivity;
-                float mouseY = Input.GetAxis("Mouse Y") * cameraSensitivity;
 
                 cameraHorizontalAngle += mouseX;
                 cameraVerticalAngle -= mouseY;
                 cameraVerticalAngle = Mathf.Clamp(cameraVerticalAngle, minVerticalAngle, maxVerticalAngle);
         }
 
-        void HandleCameraZoom()
+        void HandleCameraZoom(float scroll)
         {
-                float scroll = Input.GetAxis("Mouse ScrollWheel");
                 if (scroll != 0)
                 {
                         cameraDistance -= scroll * zoomSpeed;
