@@ -52,11 +52,17 @@ public class PlayerController : MonoBehaviour
         // Update is called once per frame
         void Update()
         {
+                var canInteracts = ViewHandler.interactiveObjects.FindAll(x => x.CanInteract());
+                if (canInteracts.Count > 0 && UIManager.Instance.InclusiveUI == false)
+                        UIManager.Instance.IndicateInteract(canInteracts[0]);
+                else
+                        UIManager.Instance.StopIndicateInteract();
                 if (UIManager.Instance.InclusiveUI == false)
                 {
                         HandleView();
                         HandleMove();
-                        HandleInteract();
+                        if (canInteracts.Count > 0)
+                                HandleInteract(canInteracts[0]);
                 }
         }
 
@@ -78,11 +84,9 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(speed * Time.deltaTime * direction);
         }
 
-        private void HandleInteract()
+        private void HandleInteract(IInteractObject interactObj)
         {
-                var canInteracts = ViewHandler.interactiveObjects.FindAll(x => x.CanInteract());
-                UIManager.Instance.CanInteract.SetActive(canInteracts.Count > 0);
-                if (Input.GetKeyDown(KeyCode.F) && canInteracts.Count > 0)
+                if (Input.GetKeyDown(KeyCode.F))
                 {
                         ViewHandler.interactiveObjects[0].Interact();
                 }
