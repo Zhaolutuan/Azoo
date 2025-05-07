@@ -12,6 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84c22f45c252bf409ed88b967c88bb7, type: 3}
   m_Name: Test1
   m_EditorClassIdentifier: 
-  Name: "\u6905\u5B50"
-  Content: "\u6905\u5B50\u4E0D\u80FD\u5750"
-  next: {fileID: 11400000, guid: b239f1fec49306242901ebcf8ac5bc19, type: 2}
+  Sentences:
+  - Name: Test1
+    Content: 111
+  - Name: Test2
+    Content: 222
+  - Name: Test3
+    Content: 333
+  Choices:
+  - Name: 111
+    NextDialog: {fileID: 0}
+  - Name: 2222
+    NextDialog: {fileID: 0}
+  - Name: 333
+    NextDialog: {fileID: 0}

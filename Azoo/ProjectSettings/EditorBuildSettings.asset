@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dormitory.unity
     guid: 8ef9bf9c3e775c64cb34fe28f7ce2658
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 671b144328c6d594aa1380720f539b30
+  - enabled: 1
+    path: Assets/Scenes/Lion.unity
+    guid: 35dba1d9c6dc5354bb0deb89e9e4e555
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

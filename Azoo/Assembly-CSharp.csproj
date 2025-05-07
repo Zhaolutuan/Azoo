@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Items\DialogButton.cs" />
     <Compile Include="Assets\Scripts\UI\UIDialog.cs" />
     <Compile Include="Assets\Scripts\ViewHandler.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Free Wood Door Pack\Script\FPSController.cs" />
     <Compile Include="Assets\Scripts\Dialog\DialogText.cs" />
     <Compile Include="Assets\Scripts\IInteractObject.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Free Wood Door Pack\Script\CameraOpenDoor.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Hill Rock Mountain Terrain\Script\Camera\FlyCameraControl.cs" />
   </ItemGroup>
