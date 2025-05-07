@@ -10,6 +10,7 @@ public class ViewHandler : MonoBehaviour
 
         private void OnTriggerEnter(Collider other)
         {
+                Debug.Log($"Enter {other.gameObject.name}");
                 list.Add(other.gameObject);
                 if (other.TryGetComponent<IInteractObject>(out var obj))
                 {
@@ -19,6 +20,7 @@ public class ViewHandler : MonoBehaviour
 
         private void OnTriggerExit(Collider other)
         {
+                Debug.Log($"Exit {other.gameObject.name}");
                 list.Remove(other.gameObject);
                 if (other.TryGetComponent<IInteractObject>(out var obj))
                 {
@@ -26,8 +28,4 @@ public class ViewHandler : MonoBehaviour
                 }
         }
 
-        // Start is called before the first frame update
-        void Start()
-        {
-        }
 }
