@@ -14,6 +14,6 @@ public class DialogButton : MonoBehaviour, IInteractObject
 
         public void Interact()
         {
-                UIDialog.Instance.ShowDialog(dialogText);
+                UIManager.Instance.Dialog.ShowDialog(dialogText);
         }
 }
