@@ -8,6 +8,7 @@ public class UIManager : Singleton<UIManager>
         public GameObject Interaction;
         public Text InteractionText;
         public UIDialog Dialog;
+        public UIIngameMenu IngameMenu;
         [Header("Auto")]
         public GameObject ManagingUI;
 
@@ -39,6 +40,8 @@ public class UIManager : Singleton<UIManager>
                 if (ManagingUI == null)
                 {
                         ManagingUI = self;
+                        Cursor.lockState = CursorLockMode.None;
+                        Cursor.visible = true;
                         return true;
                 }
                 return false;
@@ -49,6 +52,8 @@ public class UIManager : Singleton<UIManager>
                 if (ManagingUI == self)
                 {
                         ManagingUI = null;
+                        Cursor.lockState = CursorLockMode.Locked;
+                        Cursor.visible = false;
                         return true;
                 }
                 return false;

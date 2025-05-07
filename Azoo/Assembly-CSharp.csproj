@@ -86,6 +86,7 @@
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Scripts\UI\UIIngameMenu.cs" />
     <Compile Include="Assets\Hill Rock Mountain Terrain\Script\Camera\FlyCameraControl.cs" />
   </ItemGroup>
   <ItemGroup>

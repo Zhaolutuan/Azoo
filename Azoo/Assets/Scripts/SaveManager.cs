@@ -3,7 +3,7 @@ using System.Collections.Generic;
 public class SaveManager : ConsistantSingleton<SaveManager>
 {
 
-        private Dictionary<string, int> SavedData;
+        public Dictionary<string, int> SavedData;
 
         protected override void Awake()
         {

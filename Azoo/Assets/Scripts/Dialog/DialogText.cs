@@ -31,6 +31,7 @@ public enum DialogConditionType
 public struct DialogCondition
 {
         public string ArgName;
+        public int value;
         public DialogConditionType ConditionType;
 }
 
@@ -66,22 +67,30 @@ public class DialogText : ScriptableObject
                         switch (condition.ConditionType)
                         {
                                 case DialogConditionType.Equal:
-                                        if (value != 0) return false;
+                                        if (value != condition.value)
+                                                return false;
                                         break;
                                 case DialogConditionType.NotEqual:
-                                        if (value == 0) return false;
+                                        if (value == condition.value)
+                                                return false;
                                         break;
                                 case DialogConditionType.Greater:
-                                        if (value <= 0) return false;
+                                        if (value <= condition.value)
+                                                return false;
                                         break;
                                 case DialogConditionType.Less:
-                                        if (value >= 0) return false;
+                                        if (value >= condition.value)
+                                                return false;
                                         break;
                                 case DialogConditionType.EqualOrGreater:
-                                        if (value < 0) return false;
+                                        if (value < condition.value)
+                                                return false;
                                         break;
                                 case DialogConditionType.EqualOrLess:
-                                        if (value > 0) return false;
+                                        if (value > condition.value)
+                                                return false;
+                                        break;
+                                default:
                                         break;
                         }
                 }

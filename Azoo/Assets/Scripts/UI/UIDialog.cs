@@ -79,6 +79,7 @@ public class UIDialog : MonoBehaviour
                 else
                 {
                         active = false;
+                        UIManager.Instance.StopManageUI(gameObject);
                         return;
                 }
         }

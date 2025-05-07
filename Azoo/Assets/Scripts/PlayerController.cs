@@ -76,12 +76,8 @@ public class PlayerController : MonoBehaviour
                 if (UIManager.Instance.InclusiveUI)
                 {
                         UIManager.Instance.StopIndicateInteract();
-                        Cursor.lockState = CursorLockMode.None;
-                        Cursor.visible = true;
                         return;
                 }
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
 
                 HandleGroundCheck();
                 HandleCameraRotation();

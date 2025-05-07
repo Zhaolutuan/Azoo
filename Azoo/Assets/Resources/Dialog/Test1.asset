@@ -21,10 +21,4 @@ MonoBehaviour:
     Content: 222
   - Name: Test3
     Content: 333
-  Choices:
-  - Name: 111
-    NextDialog: {fileID: 0}
-  - Name: 2222
-    NextDialog: {fileID: 0}
-  - Name: 333
-    NextDialog: {fileID: 0}
+  Choices: []
