@@ -1,24 +1,30 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Collections;
 
 public class UIDialog : Singleton<UIDialog>
 {
-        public Text title;
-        public Text text;
+        [Header("Dialog")]
+        public List<DialoSentence> content;
+        public List<DialogChoice> choices;
 
-        public DialogText content;
-
+        [Header("Anim")]
         [SerializeField]
         private bool active;
         [SerializeField, Range(0.1f, 2f)]
         private float fadeTime = 0.5f;
+        [Header("Refs")]
+        public Text title;
+        public Text text;
+        public Text OptionTitle;
+        public GameObject OptionPanel;
+        public GameObject OptionPrefab;
+        public Transform OptionParent;
+        public CanvasGroup canvasGroup;
 
-        private CanvasGroup canvasGroup;
-
-        private void Start()
-        {
-                canvasGroup = GetComponent<CanvasGroup>();
-        }
+        private bool DialogAnimatiing;
+        private bool DialogHurry;
 
         private void Update()
         {
@@ -28,33 +34,97 @@ public class UIDialog : Singleton<UIDialog>
                         canvasGroup.alpha -= Time.deltaTime / fadeTime;
                 canvasGroup.alpha = Mathf.Clamp01(canvasGroup.alpha);
 
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                        Continue();
+                }
         }
 
         public void ShowDialog(DialogText dialog)
         {
-                active = true;
-                content = dialog;
-                title.text = dialog.Name;
-                text.text = dialog.Content;
-        }
+                if (dialog == null)
+                {
+                        Debug.Log("Dialog Empty");
+                        UIManager.Instance.StopManageUI(gameObject);
+                        return;
+                }
 
-        public void ShowText(string name, string content)
-        {
-                active = true;
-                title.text = name;
-                text.text = content;
+                UIManager.Instance.ManageUIWith(gameObject, () =>
+                {
+                        Debug.Log("ShowDialog:" + dialog);
+                        active = true;
+                        content = new(dialog.Sentences);
+                        choices = new(dialog.Choices);
+                        StartCoroutine(ShowText());
+                });
         }
 
         public void Continue()
         {
-                if (content.next != null)
+                if (DialogAnimatiing)
                 {
-                        ShowDialog(content.next);
+                        DialogHurry = true;
+                        return;
+                }
+                else if (content != null && content.Count > 0)
+                {
+                        StartCoroutine(ShowText());
+                        return;
+                }
+                else if (choices != null && choices.Count > 0 && OptionPanel.activeInHierarchy == false)
+                {
+                        ShowChoice();
+                        return;
                 }
                 else
                 {
                         active = false;
+                        return;
                 }
+        }
+
+        private void ShowChoice()
+        {
+                active = false;
+                OptionPanel.SetActive(true);
+                foreach (Transform child in OptionParent)
+                {
+                        Destroy(child.gameObject);
+                }
+
+                foreach (var choice in choices)
+                {
+                        GameObject option = Instantiate(OptionPrefab, OptionParent);
+                        option.GetComponentInChildren<Text>().text = choice.Name;
+                        option.GetComponent<Button>().onClick.AddListener(() =>
+                        {
+                                OptionPanel.SetActive(false);
+                                ShowDialog(choice.NextDialog);
+                        });
+                }
+        }
+        private IEnumerator ShowText()
+        {
+                if (content == null || content.Count == 0)
+                {
+                        yield break;
+                }
+
+                active = true;
+                DialogAnimatiing = true;
+                DialogHurry = false;
+                int length = 0;
+
+                title.text = content[0].Name;
+                while (length < content[0].Content.Length && DialogHurry == false)
+                {
+                        length++;
+                        text.text = content[0].Content.Substring(0, length);
+                        yield return new WaitForSeconds(0.1f);
+                }
+                text.text = content[0].Content;
+                content.RemoveAt(0);
+                DialogAnimatiing = false;
         }
 
 }

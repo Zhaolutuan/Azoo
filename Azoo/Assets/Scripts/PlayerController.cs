@@ -1,7 +1,4 @@
 using Cinemachine;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -11,6 +8,7 @@ public class PlayerController : MonoBehaviour
         public float speed = 5.0f;
 
         [Header("View")]
+        public bool canMoveView = true;
         public CinemachineVirtualCamera vcam;
         public CinemachineOrbitalTransposer transposer;
         public Vector2 OffsetYRange;
@@ -54,9 +52,12 @@ public class PlayerController : MonoBehaviour
         // Update is called once per frame
         void Update()
         {
-                HandleView();
-                HandleMove();
-                HandleInteract();
+                if (UIManager.Instance.InclusiveUI == false)
+                {
+                        HandleView();
+                        HandleMove();
+                        HandleInteract();
+                }
         }
 
         private void HandleView()
@@ -79,16 +80,11 @@ public class PlayerController : MonoBehaviour
 
         private void HandleInteract()
         {
-                if (!Input.GetKeyDown(KeyCode.F)) return;
-
                 var canInteracts = ViewHandler.interactiveObjects.FindAll(x => x.CanInteract());
-                if (canInteracts.Count > 0)
+                UIManager.Instance.CanInteract.SetActive(canInteracts.Count > 0);
+                if (Input.GetKeyDown(KeyCode.F) && canInteracts.Count > 0)
                 {
                         ViewHandler.interactiveObjects[0].Interact();
-                }
-                else
-                {
-                        UIDialog.Instance.Continue();
                 }
         }
 }
