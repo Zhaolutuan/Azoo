@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 475c4a4e617a8401b84ca7b32c7cc460
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161671
+  packageName: Exterior Swimming Pool
+  packageVersion: 1.1
+  assetPath: Assets/Exterior_swimming_pool/Water/Shaders/FXWater4Advanced.shader
+  uploadId: 423923

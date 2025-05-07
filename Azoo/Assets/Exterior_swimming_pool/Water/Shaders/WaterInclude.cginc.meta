@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 34e1452e07a0b40c295c5b10aa679465
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161671
+  packageName: Exterior Swimming Pool
+  packageVersion: 1.1
+  assetPath: Assets/Exterior_swimming_pool/Water/Shaders/WaterInclude.cginc
+  uploadId: 423923

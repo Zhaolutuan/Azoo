@@ -64,10 +64,18 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\Tree_Packs\URP_Tree_Pack\Editor\AS_Offers.cs" />
     <Compile Include="Assets\ALP_Assets\Big Oak Tree FREE\Core\Scripts\Global Lighting\Editor\ALP8310_GlobalLightingWindow.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
     <Compile Include="Assets\ALP_Assets\Big Oak Tree FREE\Core\Scripts\GUI\Editor\ALP8310_ShaderGUI.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Utils\CurveEditor.cs" />
     <Compile Include="Assets\ALP_Assets\Big Oak Tree FREE\Core\Scripts\Global Lighting\Editor\ALP8310_LightsSettings.cs" />
     <Compile Include="Assets\Tree_Packs\URP_Tree_Pack\Editor\Rate_Me.cs" />
     <Compile Include="Assets\ALP_Assets\Big Oak Tree FREE\Core\Scripts\GUI\Editor\ALP8310_ShaderDrawers.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DOTween\Editor\DOTweenEditor.XML" />
