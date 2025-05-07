@@ -301,6 +301,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12f7651f190155743a30dfe35c4af394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AwakeValues:
+  - key: HP
+    value: 100
 --- !u!4 &398869109
 Transform:
   m_ObjectHideFlags: 0

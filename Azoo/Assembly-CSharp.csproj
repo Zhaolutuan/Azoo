@@ -100,6 +100,7 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Scripts\UI\UIArgSlider.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\DisableRenderer.cs" />

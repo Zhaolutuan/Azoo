@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conditions: []
   Effects:
-  - ArgName: Test
-    value: 0
-    EffectType: 1
+  - ArgName: HP
+    value: 5
+    EffectType: 3
   Sentences:
   - Name: Test1
     Content: 111

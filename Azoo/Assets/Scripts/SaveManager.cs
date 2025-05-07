@@ -7,11 +7,27 @@ public class SaveManager : ConsistantSingleton<SaveManager>
         public Dictionary<string, int> SavedData;
         public StringBuilder Logs;
 
+        [System.Serializable]
+        public struct AwakeValue
+        {
+                public string key;
+                public int value;
+        }
+
+        public List<AwakeValue> AwakeValues = new();
+
         protected override void Awake()
         {
                 base.Awake();
                 Logs = new();
                 SavedData = new();
+                foreach (AwakeValue value in AwakeValues)
+                {
+                        if (SavedData.ContainsKey(value.key))
+                                SavedData[value.key] = value.value;
+                        else
+                                SavedData.Add(value.key, value.value);
+                }
         }
 
         public int Get(string key)
