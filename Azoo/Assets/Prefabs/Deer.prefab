@@ -483,6 +483,7 @@ GameObject:
   - component: {fileID: 4581031196176466691}
   - component: {fileID: 3046891011215180081}
   - component: {fileID: 8054442148821269077}
+  - component: {fileID: 1351027884405521626}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Untagged
@@ -599,6 +600,20 @@ MonoBehaviour:
   m_MouseX: Mouse X
   m_MouseY: Mouse Y
   m_MouseScroll: Mouse ScrollWheel
+--- !u!114 &1351027884405521626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3014410768238587240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2617c2d802bc70744a95fd1f08e327c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u9E7F"
+  dialogText: {fileID: 11400000, guid: 43b4dde176369dc49a6097dded06c4a7, type: 2}
 --- !u!1 &3366093764197118109
 GameObject:
   m_ObjectHideFlags: 0

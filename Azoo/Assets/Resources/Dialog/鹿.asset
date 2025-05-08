@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84c22f45c252bf409ed88b967c88bb7, type: 3}
+  m_Name: "\u9E7F"
+  m_EditorClassIdentifier: 
+  Conditions: []
+  Effects: []
+  Sentences:
+  - Name: "\u9E7F"
+    Content: "\u53CB\u5584\u7684\u751F\u7269\uFF0C\u5F88\u559C\u6B22\u4F60"
+  Choices:
+  - Name: "\u5B9D\u5B9D\u8D34\u8D34"
+    NextDialog: {fileID: 0}
+  Log: 

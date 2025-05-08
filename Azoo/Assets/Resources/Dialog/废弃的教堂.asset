@@ -18,7 +18,7 @@ MonoBehaviour:
     ConditionType: 3
   Effects:
   - ArgName: HP
-    value: -10
+    value: 10
     EffectType: 3
   Sentences:
   - Name: "\u6559\u5802"

@@ -278,6 +278,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6502557533550438918}
   - component: {fileID: 6592919079295171162}
+  - component: {fileID: -6723811922196508397}
+  - component: {fileID: -7111267370375337395}
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Untagged
@@ -325,6 +327,42 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!64 &-6723811922196508397
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6496587192124815658}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &-7111267370375337395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6496587192124815658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2617c2d802bc70744a95fd1f08e327c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u5154\u5B50"
+  dialogText: {fileID: 11400000, guid: 1a16cae7652fdb44d98c282f2f480a3d, type: 2}
 --- !u!1 &6496587276110471164
 GameObject:
   m_ObjectHideFlags: 0
