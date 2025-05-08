@@ -12,13 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84c22f45c252bf409ed88b967c88bb7, type: 3}
   m_Name: "\u5E9F\u5F03\u7684\u6559\u5802"
   m_EditorClassIdentifier: 
-  Conditions: []
-  Effects: []
+  Conditions:
+  - ArgName: HP
+    value: 0
+    ConditionType: 3
+  Effects:
+  - ArgName: HP
+    value: 10
+    EffectType: 3
   Sentences:
-  - Name: "\u8D34\u5728\u5899\u58C1\u4E0A\u7684\u7EB8\u6761"
-    Content: "\u4F3C\u4E4E\u662F\u5D07\u62DC\u7942\u7684\u4E00\u4E2A\u6559\u5802\uFF0C\u5185\u90E8\u7684\u95E8\u9501\u4E0A\u4E86\uFF0C\u6211\u6709\u4E9B\u5BB3\u6015\uFF0C\u8FD8\u662F\u79BB\u5F00\u5427"
+  - Name: "\u6559\u5802"
+    Content: "\u4F3C\u4E4E\u662F\u5D07\u62DC\u7942\u7684\u4E00\u4E2A\u6559\u5802\uFF0C\u95E8\u4F3C\u4E4E\u6CA1\u6709\u9501\u4E0A\uFF0C\u6211\u8981\u8FDB\u5165\u5417"
   Choices:
   - Name: "\u62D2\u7EDD\u5BB3\u6015\u6211\u5F88\u52C7\u6562"
-    NextDialog: {fileID: 0}
+    NextDialog: {fileID: 11400000, guid: 6e97bfbee950b074a9ffb82e5f51fa52, type: 2}
   - Name: "\u7B97\u4E86\u5427\uFF0C\u6211\u4E5F\u6709\u4E9B\u5BB3\u6015"
     NextDialog: {fileID: 0}
+  Log: 

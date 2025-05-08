@@ -277,10 +277,22 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6502557533550438918}
+<<<<<<< HEAD
   - component: {fileID: 2225337272817872906}
   - component: {fileID: 8958508078402429119}
   - component: {fileID: 5992505385085849220}
   - component: {fileID: 3692479308494720497}
+=======
+  - component: {fileID: 6592919079295171162}
+<<<<<<< HEAD
+  - component: {fileID: -6723811922196508397}
+  - component: {fileID: -7111267370375337395}
+=======
+  - component: {fileID: -388877405428195190}
+  - component: {fileID: -3698751337187746770}
+  - component: {fileID: 6921742649853790487}
+>>>>>>> 879e39db05a8f24b9acad2275250e59c63f35693
+>>>>>>> dd1a03c40adfc5e4c479396264eb73db319ac2a7
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Untagged
@@ -313,6 +325,7 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6496587192124815658}
+<<<<<<< HEAD
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -335,6 +348,29 @@ Rigidbody:
   m_CollisionDetection: 0
 --- !u!136 &8958508078402429119
 CapsuleCollider:
+=======
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 0962bdca27eaca34aaa15f7fdf608faf, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+<<<<<<< HEAD
+--- !u!64 &-6723811922196508397
+MeshCollider:
+=======
+--- !u!143 &-388877405428195190
+CharacterController:
+>>>>>>> 879e39db05a8f24b9acad2275250e59c63f35693
+>>>>>>> dd1a03c40adfc5e4c479396264eb73db319ac2a7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -351,6 +387,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 1
@@ -379,6 +416,25 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3692479308494720497
+=======
+<<<<<<< HEAD
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &-7111267370375337395
+=======
+  serializedVersion: 3
+  m_Height: 1.44
+  m_Radius: 1.13
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1.13, z: 0}
+--- !u!114 &-3698751337187746770
+>>>>>>> 879e39db05a8f24b9acad2275250e59c63f35693
+>>>>>>> dd1a03c40adfc5e4c479396264eb73db319ac2a7
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -387,6 +443,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6496587192124815658}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 2d286b20aae69874b93942b83967412b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -394,6 +451,51 @@ MonoBehaviour:
   turnSpeed: 45
   idleTime: 3
   wallCheckDistance: 0.5
+=======
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 2617c2d802bc70744a95fd1f08e327c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u5154\u5B50"
+  dialogText: {fileID: 11400000, guid: 1a16cae7652fdb44d98c282f2f480a3d, type: 2}
+=======
+  m_Script: {fileID: 11500000, guid: be2f4aa750c530144bd7219a00354c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_WalkSpeed: 1
+  m_RunSpeed: 4
+  m_RotateSpeed: 245
+  m_Space: 1
+  m_JumpHeight: 5
+  m_VerticalID: Vert
+  m_StateID: State
+  m_LookWeight:
+    weight: 1
+    body: 0.3
+    head: 0.7
+    eyes: 1
+--- !u!114 &6921742649853790487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6496587192124815658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c67ce836140b4479603ebcf944cddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_JumpButton: Jump
+  m_RunKey: 304
+  m_Camera: {fileID: 0}
+  m_MouseX: Mouse X
+  m_MouseY: Mouse Y
+  m_MouseScroll: Mouse ScrollWheel
+>>>>>>> 879e39db05a8f24b9acad2275250e59c63f35693
+>>>>>>> dd1a03c40adfc5e4c479396264eb73db319ac2a7
 --- !u!1 &6496587276110471164
 GameObject:
   m_ObjectHideFlags: 0
