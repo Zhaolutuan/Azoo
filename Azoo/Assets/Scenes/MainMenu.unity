@@ -304,6 +304,8 @@ MonoBehaviour:
   AwakeValues:
   - key: HP
     value: 100
+  - key: HP
+    value: 100
 --- !u!4 &398869109
 Transform:
   m_ObjectHideFlags: 0
