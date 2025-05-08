@@ -85,7 +85,6 @@
     <Compile Include="Assets\DestructibleWallGenerator\Example\Scripts\ThrowObject.cs" />
     <Compile Include="Assets\DestructibleWallGenerator\DWG\Scripts\DWGTagManager.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-    <Compile Include="Assets\ithappy\Animals_FREE\Scripts\MovePlayerInput.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\UserLutModel.cs" />
@@ -138,6 +137,7 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\Free Wood Door Pack\Script\CameraOpenDoor.cs" />
+    <Compile Include="Assets\ithappy\Animals_FREE\Scripts\MoveController.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
@@ -154,6 +154,7 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Scripts\UI\UIIngameMenu.cs" />
+    <Compile Include="Assets\Scripts\AnimalMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
