@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
         [Header("Movement Settings")]
         public float walkSpeed = 5f;
         public float runSpeed = 8f;
-        public float rotationSpeed = 15f;
+        public float rotationSpeed = 5f;
 
         // 跳跃参数
         [Header("Jump Settings")]
@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         [Header("Camera Settings")]
         public float cameraDistance = 5f;
         public float cameraHeight = 1.7f;
-        public float minCameraDistance = 2f;
+        public float minCameraDistance = 5f;
         public float maxCameraDistance = 10f;
         public float zoomSpeed = 5f;
         public float cameraSensitivity = 2f;
@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         void Update()
         {
                 float horizontal = Input.GetAxis("Horizontal");
-                float vertical = Mathf.Clamp(Input.GetAxis("Vertical"), 0, 999);
+                float vertical = Input.GetAxis("Vertical");
                 bool spacePressed = Input.GetKeyDown(KeyCode.Space);
                 float mouseX = Input.GetAxis("Mouse X") * cameraSensitivity;
                 float mouseY = Input.GetAxis("Mouse Y") * cameraSensitivity;
@@ -186,37 +186,63 @@ public class PlayerController : MonoBehaviour
 
         void HandleCameraRotation(float mouseX, float mouseY)
         {
+            // 更新水平角度
+            cameraHorizontalAngle += mouseX;
 
-                cameraHorizontalAngle += mouseX;
-                cameraVerticalAngle -= mouseY;
-                cameraVerticalAngle = Mathf.Clamp(cameraVerticalAngle, minVerticalAngle, maxVerticalAngle);
+            // 更新垂直角度，并限制范围
+            cameraVerticalAngle -= mouseY;
+            cameraVerticalAngle = Mathf.Clamp(cameraVerticalAngle, minVerticalAngle, maxVerticalAngle);
+
+            // 更新镜头旋转
+            Quaternion rotation = Quaternion.Euler(cameraVerticalAngle, cameraHorizontalAngle, 0);
+            playerCamera.transform.rotation = rotation;
         }
 
         void HandleCameraZoom(float scroll)
         {
-                if (scroll != 0)
-                {
-                        cameraDistance -= scroll * zoomSpeed;
-                        cameraDistance = Mathf.Clamp(cameraDistance, minCameraDistance, maxCameraDistance);
-                }
+            if (scroll != 0)
+            {
+                // 更新镜头距离，并限制范围
+                cameraDistance -= scroll * zoomSpeed;
+                cameraDistance = Mathf.Clamp(cameraDistance, minCameraDistance, maxCameraDistance);
+            }
         }
 
         void UpdateCameraPosition()
         {
-                // 计算镜头位置
-                Quaternion rotation = Quaternion.Euler(cameraVerticalAngle, cameraHorizontalAngle, 0);
-                Vector3 cameraOffset = rotation * Vector3.back * cameraDistance;
-                Vector3 desiredPosition = transform.position + Vector3.up * cameraHeight + cameraOffset;
+            // 计算镜头位置
+            Quaternion rotation = Quaternion.Euler(cameraVerticalAngle, cameraHorizontalAngle, 0);
+            Vector3 cameraOffset = rotation * Vector3.back * cameraDistance;
 
-                // 碰撞检测
-                if (Physics.Linecast(transform.position + Vector3.up * cameraHeight, desiredPosition, out RaycastHit hit))
-                {
-                        desiredPosition = hit.point + hit.normal * 0.3f;
-                }
+            // 目标位置（角色头顶 + 镜头偏移）
+            Vector3 desiredPosition = transform.position + Vector3.up * cameraHeight + cameraOffset;
 
-                playerCamera.transform.position = desiredPosition;
-                playerCamera.transform.LookAt(transform.position + Vector3.up * cameraHeight);
+            //// 碰撞检测
+            //if (Physics.Linecast(transform.position + Vector3.up * cameraHeight, desiredPosition, out RaycastHit hit))
+            //{
+            //    // 如果检测到碰撞，将镜头位置调整到碰撞点附近
+            //    desiredPosition = hit.point + hit.normal * 0.3f;
+            //}
+
+            // 碰撞检测（忽略角色自身的碰撞体积）
+            int layerMask = ~LayerMask.GetMask("Player"); // 排除角色所在的层
+            if (Physics.Linecast(transform.position + Vector3.up * cameraHeight, desiredPosition, out RaycastHit hit, layerMask))
+            {
+                // 如果检测到碰撞，将镜头位置调整到碰撞点附近
+                desiredPosition = hit.point + hit.normal * 0.3f;
+            }
+
+            // 平滑移动镜头位置
+            playerCamera.transform.position = Vector3.Lerp(
+                playerCamera.transform.position,
+                desiredPosition,
+                Time.deltaTime * 10f // 调整平滑速度
+            );
+
+            // 镜头始终看向角色头顶
+            playerCamera.transform.LookAt(transform.position + Vector3.up * cameraHeight);
         }
+
 
         void HandleFallAnimation()
         {
